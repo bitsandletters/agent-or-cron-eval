@@ -1,0 +1,15 @@
+{
+  "run_id": "4e61da23df94c3f27455",
+  "target_id": "deterministic-a",
+  "arm": "A",
+  "factors": {
+    "execution_style": "deterministic_pipeline",
+    "prompt_breadth": "none"
+  },
+  "fixture_id": "dev-zero",
+  "requested_model": null,
+  "actual_model": null,
+  "observed_models": null,
+  "passed": true,
+  "latency_seconds": 0.08601805600028456
+}

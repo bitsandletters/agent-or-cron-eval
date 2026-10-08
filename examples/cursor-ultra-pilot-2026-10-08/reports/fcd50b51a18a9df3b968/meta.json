@@ -1,0 +1,17 @@
+{
+  "run_id": "fcd50b51a18a9df3b968",
+  "target_id": "cursor-claude-sonnet-5-5",
+  "arm": "C",
+  "factors": {
+    "execution_style": "tool_driven",
+    "prompt_breadth": "narrow"
+  },
+  "fixture_id": "dev-decline",
+  "requested_model": "claude-sonnet-5-5-high",
+  "actual_model": "claude-sonnet-5-5",
+  "observed_models": [
+    "Claude Sonnet 5.5 300K High"
+  ],
+  "passed": false,
+  "latency_seconds": 74.06518664800024
+}
