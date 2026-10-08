@@ -1,0 +1,226 @@
+{
+  "schema_version": "1.0",
+  "fixture_id": "dev-zero",
+  "periods": {
+    "previous": {
+      "start": "2026-09-14",
+      "end": "2026-09-20"
+    },
+    "current": {
+      "start": "2026-09-21",
+      "end": "2026-09-27"
+    }
+  },
+  "summary": "Synthetic weekly analytics report. Changes describe observed source metrics; causal explanations require additional evidence.",
+  "sources": {
+    "search_console": {
+      "completeness": {
+        "previous": {
+          "expected_days": 7,
+          "observed_days": 7,
+          "reason": null
+        },
+        "current": {
+          "expected_days": 7,
+          "observed_days": 7,
+          "reason": null
+        }
+      },
+      "kpis": {
+        "clicks": {
+          "previous": 0,
+          "current": 18,
+          "absolute_change": 18,
+          "wow_pct": null,
+          "status": "zero_baseline",
+          "unit": "count",
+          "evidence_refs": [
+            "search_console.clicks.previous",
+            "search_console.clicks.current",
+            "search_console.clicks.absolute_change",
+            "search_console.clicks.wow_pct"
+          ]
+        },
+        "impressions": {
+          "previous": 0,
+          "current": 297,
+          "absolute_change": 297,
+          "wow_pct": null,
+          "status": "zero_baseline",
+          "unit": "count",
+          "evidence_refs": [
+            "search_console.impressions.previous",
+            "search_console.impressions.current",
+            "search_console.impressions.absolute_change",
+            "search_console.impressions.wow_pct"
+          ]
+        },
+        "position": {
+          "previous": null,
+          "current": 9.19,
+          "absolute_change": null,
+          "wow_pct": null,
+          "status": "missing",
+          "unit": "position",
+          "evidence_refs": [
+            "search_console.position.previous",
+            "search_console.position.current",
+            "search_console.position.absolute_change",
+            "search_console.position.wow_pct"
+          ]
+        },
+        "ctr": {
+          "previous": null,
+          "current": 0.060606061,
+          "absolute_change": null,
+          "wow_pct": null,
+          "status": "missing",
+          "unit": "ratio",
+          "evidence_refs": [
+            "search_console.ctr.previous",
+            "search_console.ctr.current",
+            "search_console.ctr.absolute_change",
+            "search_console.ctr.wow_pct"
+          ]
+        }
+      }
+    },
+    "posthog": {
+      "completeness": {
+        "previous": {
+          "expected_days": 7,
+          "observed_days": 7,
+          "reason": null
+        },
+        "current": {
+          "expected_days": 7,
+          "observed_days": 7,
+          "reason": null
+        }
+      },
+      "kpis": {
+        "sessions": {
+          "previous": 0,
+          "current": 40,
+          "absolute_change": 40,
+          "wow_pct": null,
+          "status": "zero_baseline",
+          "unit": "count",
+          "evidence_refs": [
+            "posthog.sessions.previous",
+            "posthog.sessions.current",
+            "posthog.sessions.absolute_change",
+            "posthog.sessions.wow_pct"
+          ]
+        },
+        "users": {
+          "previous": 0,
+          "current": 35,
+          "absolute_change": 35,
+          "wow_pct": null,
+          "status": "zero_baseline",
+          "unit": "count",
+          "evidence_refs": [
+            "posthog.users.previous",
+            "posthog.users.current",
+            "posthog.users.absolute_change",
+            "posthog.users.wow_pct"
+          ]
+        },
+        "conversions": {
+          "previous": 0,
+          "current": 2,
+          "absolute_change": 2,
+          "wow_pct": null,
+          "status": "zero_baseline",
+          "unit": "count",
+          "evidence_refs": [
+            "posthog.conversions.previous",
+            "posthog.conversions.current",
+            "posthog.conversions.absolute_change",
+            "posthog.conversions.wow_pct"
+          ]
+        },
+        "conversion_rate": {
+          "previous": null,
+          "current": 0.05,
+          "absolute_change": null,
+          "wow_pct": null,
+          "status": "missing",
+          "unit": "ratio",
+          "evidence_refs": [
+            "posthog.conversion_rate.previous",
+            "posthog.conversion_rate.current",
+            "posthog.conversion_rate.absolute_change",
+            "posthog.conversion_rate.wow_pct"
+          ]
+        }
+      }
+    }
+  },
+  "findings": [
+    {
+      "id": "f1",
+      "kind": "insufficient_evidence",
+      "source": "search_console",
+      "metric": "clicks",
+      "statement": "search_console clicks has insufficient evidence for a comparable percentage change (zero_baseline).",
+      "evidence_refs": [
+        "search_console.clicks.wow_pct"
+      ],
+      "claims": [
+        {
+          "ref": "search_console.clicks.wow_pct",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "kind": "insufficient_evidence",
+      "source": "posthog",
+      "metric": "sessions",
+      "statement": "posthog sessions has insufficient evidence for a comparable percentage change (zero_baseline).",
+      "evidence_refs": [
+        "posthog.sessions.wow_pct"
+      ],
+      "claims": [
+        {
+          "ref": "posthog.sessions.wow_pct",
+          "value": null
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "code": "synthetic_data",
+      "source": null,
+      "detail": "This report uses synthetic fixture data only."
+    },
+    {
+      "code": "source_distinction",
+      "source": null,
+      "detail": "Search Console clicks and PostHog sessions measure different populations and are not interchangeable."
+    },
+    {
+      "code": "missing_values",
+      "source": "search_console",
+      "detail": "Source metrics contain null values; do not replace them with zero."
+    },
+    {
+      "code": "zero_denominator",
+      "source": "search_console",
+      "detail": "A zero denominator or baseline makes at least one ratio or percentage change undefined."
+    },
+    {
+      "code": "zero_denominator",
+      "source": "posthog",
+      "detail": "A zero denominator or baseline makes at least one ratio or percentage change undefined."
+    }
+  ],
+  "next_checks": [
+    "Check source collection coverage before drawing conclusions.",
+    "Segment each source by page and acquisition channel before proposing causes."
+  ]
+}
