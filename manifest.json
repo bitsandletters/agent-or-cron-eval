@@ -13,7 +13,7 @@
     "fixtures/heldout/holdout-04.json": "a37e21439cab172f6e5314b3f6860e22b3f17564f93699ef450b8fcd9dae9d73",
     "fixtures/heldout/holdout-05.json": "61711a39571251f21085fb9c535637e471982fdcdf5b404750b8d19525d3bd47",
     "fixtures/heldout/holdout-06.json": "d812b8b93c9be5b01a1b3dd5ffb319d58ff915fa9e252ba8df1541eadc8324e3",
-    "pricing/prices.json": "ab167cafd796eb8243625ee132ddc1710fbae54f6dabdf7f7eb36c321878c3b6",
+    "pricing/prices.json": "a30fd64b817b24775d31eee61912b3d4965572457cedb5e081a35f40069fa9ed",
     "prompts/A.md": "56cf60fc4abba7db1887873c4d838319f3dcd56afb7755a136ca12a4577c3442",
     "prompts/B.md": "a19ff9594fc77050417d4dd2a7a482474ea78e49a073e711170f0b7f9e109f29",
     "prompts/C.md": "96f970480917a1d098c57f22edd351a264d798174824f41d031b833c6a4d8a36",
@@ -33,7 +33,7 @@
     "src/cronbench/runner.py": "2ac770c132d250de3a4db8e75ecd8521844956199fd13713244346f45ec1023b",
     "src/cronbench/runtime.py": "ba68d88bd898349b44a94d02606ae18a788b49c0303becc31c5d0b9d0baf7165",
     "src/cronbench/scoring.py": "369fed9f8aff027f52b6d4c552f361da3caf15dc1bc6d612b7e672178e7be8e5",
-    "src/cronbench/usage.py": "e48a189d4f086fdc35334c7f8456eefd3a8bddc5afa13e32d2255a73abadf1f4"
+    "src/cronbench/usage.py": "175b9f4bc8db459cb5e34ee8abc761d5b9082662c8e323f0ccbc450a8579d638"
   },
   "version": "1.0"
 }
