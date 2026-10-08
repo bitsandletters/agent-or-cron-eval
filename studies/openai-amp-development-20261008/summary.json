@@ -1,0 +1,241 @@
+{
+  "ai_generated": true,
+  "study_id": "b076a373e8144ef6c0bc",
+  "revision": "b5baeb51dcebcc3c1cc2edb901863a0fb17e3297",
+  "manifest_sha256": "4f1a6ef761dde69b7af4eee63b498b6b4559005aa320cc8dd6afee4098910c82",
+  "planned": 78,
+  "finalized": 78,
+  "execution_failures": 0,
+  "retries": 0,
+  "automated_passes": 61,
+  "groups": [
+    {
+      "target": "deterministic-a",
+      "arm": "A",
+      "breadth": "none",
+      "n": 6,
+      "passes": 6,
+      "wall_seconds_median": 0.11473592599998028,
+      "input_tokens_median": 0.0,
+      "output_tokens_median": 0.0,
+      "conditional_api_usd_median": 0.0,
+      "conditional_api_usd_mean": 0.0,
+      "conditional_projection_usd": {
+        "4": 0.0,
+        "13": 0.0,
+        "52": 0.0
+      }
+    },
+    {
+      "target": "amp-gpt61s",
+      "arm": "C",
+      "breadth": "narrow",
+      "n": 6,
+      "passes": 3,
+      "wall_seconds_median": 223.037,
+      "input_tokens_median": 357483.5,
+      "output_tokens_median": 6233.0,
+      "conditional_api_usd_median": 0.2132645,
+      "conditional_api_usd_mean": 0.21167931666666667,
+      "conditional_projection_usd": {
+        "4": 0.8467172666666667,
+        "13": 2.7518311166666667,
+        "52": 11.007324466666667
+      }
+    },
+    {
+      "target": "amp-gpt61s",
+      "arm": "D",
+      "breadth": "broad",
+      "n": 6,
+      "passes": 4,
+      "wall_seconds_median": 228.1245,
+      "input_tokens_median": 401168.0,
+      "output_tokens_median": 6329.0,
+      "conditional_api_usd_median": 0.23356245,
+      "conditional_api_usd_mean": 0.23667495,
+      "conditional_projection_usd": {
+        "4": 0.9466998,
+        "13": 3.07677435,
+        "52": 12.3070974
+      }
+    },
+    {
+      "target": "amp-gpt61s",
+      "arm": "E",
+      "breadth": "narrow",
+      "n": 6,
+      "passes": 6,
+      "wall_seconds_median": 94.06700000000001,
+      "input_tokens_median": 206101.5,
+      "output_tokens_median": 1761.0,
+      "conditional_api_usd_median": 0.10322419999999999,
+      "conditional_api_usd_mean": 0.11448691666666666,
+      "conditional_projection_usd": {
+        "4": 0.45794766666666664,
+        "13": 1.4883299166666666,
+        "52": 5.953319666666666
+      }
+    },
+    {
+      "target": "amp-gpt61s",
+      "arm": "E",
+      "breadth": "broad",
+      "n": 6,
+      "passes": 6,
+      "wall_seconds_median": 136.722,
+      "input_tokens_median": 203951.0,
+      "output_tokens_median": 2163.0,
+      "conditional_api_usd_median": 0.129743,
+      "conditional_api_usd_mean": 0.13521173333333333,
+      "conditional_projection_usd": {
+        "4": 0.5408469333333333,
+        "13": 1.7577525333333333,
+        "52": 7.031010133333333
+      }
+    },
+    {
+      "target": "amp-astra",
+      "arm": "C",
+      "breadth": "narrow",
+      "n": 6,
+      "passes": 4,
+      "wall_seconds_median": 186.5275,
+      "input_tokens_median": 290455.5,
+      "output_tokens_median": 4028.5,
+      "conditional_api_usd_median": 0.9425680000000001,
+      "conditional_api_usd_mean": 0.9381930833333333,
+      "conditional_projection_usd": {
+        "4": 3.752772333333333,
+        "13": 12.196510083333333,
+        "52": 48.78604033333333
+      }
+    },
+    {
+      "target": "amp-astra",
+      "arm": "D",
+      "breadth": "broad",
+      "n": 6,
+      "passes": 4,
+      "wall_seconds_median": 172.1535,
+      "input_tokens_median": 277160.0,
+      "output_tokens_median": 3609.5,
+      "conditional_api_usd_median": 0.947558,
+      "conditional_api_usd_mean": 0.92046225,
+      "conditional_projection_usd": {
+        "4": 3.681849,
+        "13": 11.96600925,
+        "52": 47.864037
+      }
+    },
+    {
+      "target": "amp-astra",
+      "arm": "E",
+      "breadth": "narrow",
+      "n": 6,
+      "passes": 6,
+      "wall_seconds_median": 89.99549999999999,
+      "input_tokens_median": 165674.5,
+      "output_tokens_median": 838.5,
+      "conditional_api_usd_median": 0.5567975000000001,
+      "conditional_api_usd_mean": 0.57291425,
+      "conditional_projection_usd": {
+        "4": 2.291657,
+        "13": 7.44788525,
+        "52": 29.791541
+      }
+    },
+    {
+      "target": "amp-astra",
+      "arm": "E",
+      "breadth": "broad",
+      "n": 6,
+      "passes": 6,
+      "wall_seconds_median": 83.965,
+      "input_tokens_median": 158219.5,
+      "output_tokens_median": 940.5,
+      "conditional_api_usd_median": 0.6353150000000001,
+      "conditional_api_usd_mean": 0.65422325,
+      "conditional_projection_usd": {
+        "4": 2.616893,
+        "13": 8.50490225,
+        "52": 34.019609
+      }
+    },
+    {
+      "target": "amp-gpt6l",
+      "arm": "C",
+      "breadth": "narrow",
+      "n": 6,
+      "passes": 4,
+      "wall_seconds_median": 123.783,
+      "input_tokens_median": 346076.5,
+      "output_tokens_median": 3710.5,
+      "conditional_api_usd_median": 0.01023636,
+      "conditional_api_usd_mean": 0.010935634166666666,
+      "conditional_projection_usd": {
+        "4": 0.043742536666666665,
+        "13": 0.14216324416666665,
+        "52": 0.5686529766666666
+      }
+    },
+    {
+      "target": "amp-gpt6l",
+      "arm": "D",
+      "breadth": "broad",
+      "n": 6,
+      "passes": 0,
+      "wall_seconds_median": 114.77799999999999,
+      "input_tokens_median": 357644.0,
+      "output_tokens_median": 3630.0,
+      "conditional_api_usd_median": 0.0103636175,
+      "conditional_api_usd_mean": 0.011208295833333333,
+      "conditional_projection_usd": {
+        "4": 0.04483318333333333,
+        "13": 0.14570784583333332,
+        "52": 0.5828313833333333
+      }
+    },
+    {
+      "target": "amp-gpt6l",
+      "arm": "E",
+      "breadth": "narrow",
+      "n": 6,
+      "passes": 6,
+      "wall_seconds_median": 75.1095,
+      "input_tokens_median": 197794.5,
+      "output_tokens_median": 1319.0,
+      "conditional_api_usd_median": 0.0054802975,
+      "conditional_api_usd_mean": 0.005717205,
+      "conditional_projection_usd": {
+        "4": 0.02286882,
+        "13": 0.07432366500000001,
+        "52": 0.29729466000000004
+      }
+    },
+    {
+      "target": "amp-gpt6l",
+      "arm": "E",
+      "breadth": "broad",
+      "n": 6,
+      "passes": 6,
+      "wall_seconds_median": 88.78,
+      "input_tokens_median": 224410.0,
+      "output_tokens_median": 1308.5,
+      "conditional_api_usd_median": 0.0059783449999999995,
+      "conditional_api_usd_mean": 0.006752255,
+      "conditional_projection_usd": {
+        "4": 0.02700902,
+        "13": 0.08777931500000001,
+        "52": 0.35111726000000004
+      }
+    }
+  ],
+  "notes": [
+    "Grouped by frozen target and treatment, excluding per-session IDs from identity; the native aggregate groups by full configuration and therefore contains 73 groups.",
+    "Latencies include orb launch, packet transfer/wait, task execution and packaging; not isolated inference latency.",
+    "Seven causal-attribution flags were manually audited as false positives; official frozen scores unchanged.",
+    "Cost rates are the repository-supplied dated reference, not independently verified prices or actual subscription charges. Default standard global pricing scope is assumed. Projections assume one invocation each week, uniform six-fixture mix and observed cache mix, no whole-run retries; exclude orchestration, human time and hosting costs.",
+    "Reasoning token totals, underlying request counts, supporting-system model usage and per-request billing receipts are unavailable."
+  ]
+}

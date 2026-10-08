@@ -1,0 +1,79 @@
+run_id,model,arm,prompt_breadth,execution_style,fixture,status,automated_pass,score,latency_seconds_including_bootstrap,input_tokens,output_tokens,cached_input_tokens,cache_write_tokens,conditional_api_equivalent_usd,scoring_errors
+052d045ccb7e3b81de63,gpt-6-astra,E,narrow,saved_script,dev-growth,completed,True,1.0,101.631,149560,717,138368,11192,0.314118,
+083898ab1598049113b5,gpt-6-astra,C,narrow,tool_driven,dev-retry,completed,True,1.0,181.219,256068,3830,215808,40260,0.910558,
+0a318a9d5f482793be37,gpt-6-astra,E,narrow,saved_script,dev-decline,completed,True,1.0,99.104,182481,960,152448,30033,0.5758605,
+0c0961bcafdccb1b0c2e,gpt-6-luna,C,narrow,tool_driven,dev-retry,completed,True,1.0,255.787,317600,2083,246784,70816,0.01236134,
+10f19a4270fc7c62a8ea,gpt-6-astra,D,broad,tool_driven,dev-growth,completed,False,0.8571428571428571,167.391,287257,4266,243840,43417,0.9998525,material_changes: Missing material change finding for posthog.sessions
+265b30ab40a7ec10d694,gpt-6.1-sol,E,narrow,saved_script,dev-decline,completed,True,1.0,85.178,182916,1577,146688,36228,0.1210088,
+273d67c31dba79db1bb2,gpt-6-luna,E,narrow,saved_script,dev-retry,completed,True,1.0,74.404,150485,898,121344,29141,0.005305065,
+2d1b0e2e0ae75fe7d735,gpt-6.1-sol,D,broad,tool_driven,dev-retry,completed,True,1.0,233.784,533206,5598,477312,55894,0.2434462,
+2d35a28b6603f6f8a317,gpt-6-luna,E,narrow,saved_script,dev-incomplete,completed,True,1.0,94.896,209100,1364,193536,15564,0.00456286,
+2fd9aba2ba4834e2634b,gpt-6-astra,D,broad,tool_driven,dev-incomplete,completed,True,1.0,163.936,328297,3166,286592,41705,0.9662045,
+2fe82127e4325ab8d8a1,deterministic,A,none,deterministic_pipeline,dev-quiet,completed,True,1.0,0.1128234349999957,0,0,0,0,0.0,
+3026b875e646e491a952,gpt-6-luna,D,broad,tool_driven,dev-incomplete,completed,False,0.8571428571428571,309.297,393830,3561,348672,45158,0.01091197,unsupported_claims: Causal attribution is unsupported by these aggregate weekly fixtures
+320c3412088d4cd73d53,gpt-6.1-sol,C,narrow,tool_driven,dev-retry,completed,True,1.0,210.01,378170,5166,328832,49338,0.2078882,
+350f502b83b638bc2939,gpt-6.1-sol,E,broad,saved_script,dev-retry,completed,True,1.0,100.877,192768,1397,177792,14976,0.0691892,
+374da1c297e613764c44,gpt-6-luna,E,narrow,saved_script,dev-quiet,completed,True,1.0,252.425,244077,1408,209920,34157,0.007072825,
+3aef39e70c3c84752f00,gpt-6.1-sol,E,narrow,saved_script,dev-quiet,completed,True,1.0,68.769,143596,1090,109184,34412,0.1078484,
+3af1cbca8574c9f94ce1,gpt-6-astra,E,narrow,saved_script,dev-retry,completed,True,1.0,70.761,137965,689,105984,31981,0.5401965,
+3ee2f32798422716ecc8,gpt-6.1-sol,D,broad,tool_driven,dev-zero,completed,True,1.0,345.208,307629,6953,253952,53677,0.2291177,
+3f0c475172b6582bc234,gpt-6.1-sol,E,broad,saved_script,dev-growth,completed,True,1.0,103.663,182518,2121,145792,36726,0.1276042,
+3f300cb06d92c8b58bdb,gpt-6-luna,C,narrow,tool_driven,dev-growth,completed,False,0.8571428571428571,106.371,343026,3356,296960,46066,0.01040585,material_changes: Missing material change finding for posthog.sessions
+3f5ecd2b1c83bbfe9a2d,gpt-6.1-sol,E,narrow,saved_script,dev-retry,completed,True,1.0,170.409,272141,3847,228864,43277,0.1695489,
+493e79e345c5cff29f1a,gpt-6.1-sol,E,narrow,saved_script,dev-zero,completed,True,1.0,102.956,251691,1945,229888,21803,0.0969463,
+4a441f110c51382f4b0f,gpt-6-luna,E,narrow,saved_script,dev-zero,completed,True,1.0,75.815,186489,1274,152576,33913,0.006401885,
+4df9370db65cf7383341,gpt-6-astra,C,narrow,tool_driven,dev-decline,completed,True,1.0,136.667,286304,4004,244864,41440,0.963064,
+51adef6c4aaa471962fa,gpt-6.1-sol,E,broad,saved_script,dev-decline,completed,True,1.0,178.597,458877,4275,412288,46589,0.2004513,
+57b8850798e722651bac,gpt-6-astra,C,narrow,tool_driven,dev-incomplete,completed,True,1.0,209.807,296041,4267,254592,41449,0.9860545,
+5c7555c6219b473fa4cf,gpt-6-luna,E,broad,saved_script,dev-zero,completed,True,1.0,140.779,261816,1300,239104,22712,0.00588004,
+5cb3148b0f2a1929ac14,gpt-6.1-sol,E,broad,saved_script,dev-quiet,completed,True,1.0,132.853,189054,2205,151168,37886,0.1318818,
+612f68cbedd1237a053f,deterministic,A,none,deterministic_pipeline,dev-growth,completed,True,1.0,0.13467255399996247,0,0,0,0,0.0,
+6365e5c98fc368fa1a42,deterministic,A,none,deterministic_pipeline,dev-zero,completed,True,1.0,0.11102928500002918,0,0,0,0,0.0,
+66c22e97ddb8f1ba929a,gpt-6-luna,E,broad,saved_script,dev-growth,completed,True,1.0,70.494,151870,971,121344,30526,0.00551469,
+67345321ae671e4589b5,gpt-6-astra,E,broad,saved_script,dev-retry,completed,True,1.0,107.356,182865,1061,152448,30417,0.5857105,
+67d0c53cadf8cc2a8f13,gpt-6-astra,E,narrow,saved_script,dev-quiet,completed,True,1.0,79.684,181789,966,151936,29853,0.5733985,
+6ad21ab204b5a114823d,gpt-6-luna,C,narrow,tool_driven,dev-decline,completed,True,1.0,139.66,504327,5324,454144,50183,0.013476315,
+6f0c241ae986baef24fc,gpt-6.1-sol,D,broad,tool_driven,dev-quiet,completed,True,1.0,238.098,329709,6789,276480,53229,0.2286105,
+6f6b3793c4931439fd82,gpt-6-luna,D,broad,tool_driven,dev-zero,completed,False,0.8571428571428571,111.866,251725,3450,203264,48461,0.009815265,unsupported_claims: Causal attribution is unsupported by these aggregate weekly fixtures
+798c5ac6fd58c3775f3f,gpt-6.1-sol,C,narrow,tool_driven,dev-incomplete,completed,False,0.8571428571428571,246.084,387140,6057,337408,49732,0.2186408,unsupported_claims: Causal attribution is unsupported by these aggregate weekly fixtures
+7d249ed6736940fb0792,gpt-6-luna,E,broad,saved_script,dev-quiet,completed,True,1.0,103.872,237408,1317,197632,39776,0.00760682,
+7d8720d6fa7c9b22ea60,gpt-6-luna,E,narrow,saved_script,dev-growth,completed,True,1.0,61.687,152165,885,121344,30821,0.005508565,
+82579a86cd2c9f52eb31,gpt-6-astra,E,narrow,saved_script,dev-zero,completed,True,1.0,80.887,129205,712,100224,28981,0.4980865,
+82d34bb0e7fa6ecdadf8,deterministic,A,none,deterministic_pipeline,dev-incomplete,completed,True,1.0,0.11496977299998434,0,0,0,0,0.0,
+86263e779016674004b0,gpt-6-astra,D,broad,tool_driven,dev-zero,completed,True,1.0,158.949,255228,2941,211968,43260,0.899768,
+87f24e22a3df895883ab,gpt-6-luna,D,broad,tool_driven,dev-decline,completed,False,0.8571428571428571,67.352,313830,2346,270848,42982,0.00925423,material_changes: Missing material change finding for posthog.sessions
+88487df5a90f75e3dc55,gpt-6-luna,D,broad,tool_driven,dev-quiet,completed,False,0.8571428571428571,104.55,436430,3699,364032,72398,0.01453957,unsupported_claims: Causal attribution is unsupported by these aggregate weekly fixtures
+8ab0a2d4565efeba1480,gpt-6.1-sol,D,broad,tool_driven,dev-incomplete,completed,True,1.0,222.465,468533,7048,410112,58421,0.2575437,
+8d62cf7794d53b9c7243,gpt-6-luna,C,narrow,tool_driven,dev-quiet,completed,True,1.0,105.289,425531,3243,395776,29755,0.009298635,
+8e898d9fa18ce5a7f799,gpt-6-luna,E,broad,saved_script,dev-incomplete,completed,True,1.0,80.73,160534,871,125440,35094,0.00607665,
+904dc26ee76e099a2efb,gpt-6-luna,E,broad,saved_script,dev-decline,completed,True,1.0,95.603,245422,1366,226816,18606,0.00527691,
+957bf2c12cec7deb3e38,gpt-6.1-sol,E,broad,saved_script,dev-incomplete,completed,True,1.0,146.341,242457,2503,197632,44825,0.1568557,
+9e26d29baf9c347f9844,gpt-6.1-sol,D,broad,tool_driven,dev-decline,completed,False,0.8571428571428571,219.849,403380,5869,345472,57908,0.2380072,material_changes: Missing material change finding for posthog.sessions
+9e301e499936495908d9,gpt-6.1-sol,C,narrow,tool_driven,dev-quiet,completed,True,1.0,212.953,314976,6215,268288,46688,0.2056988,
+a38da4d8a86d5fcb9892,gpt-6-astra,E,broad,saved_script,dev-growth,completed,True,1.0,53.951,100000,649,48512,51488,0.724562,
+b047ed2dc562368f2eff,gpt-6-luna,C,narrow,tool_driven,dev-zero,completed,True,1.0,107.906,288490,4065,243712,44778,0.01006687,
+b29a010d404cfaa922f4,gpt-6-astra,E,broad,saved_script,dev-quiet,completed,True,1.0,74.111,149580,820,113152,36428,0.609502,
+b8f5e6a27a427bb5c81b,deterministic,A,none,deterministic_pipeline,dev-decline,completed,True,1.0,0.11450207899997622,0,0,0,0,0.0,
+b9759c52fb73b58ac7b5,gpt-6-luna,E,broad,saved_script,dev-retry,completed,True,1.0,81.957,211412,1732,148992,62420,0.01015842,
+bbe0876b9a352dcb0129,gpt-6-astra,E,broad,saved_script,dev-zero,completed,True,1.0,51.085,121723,580,70784,50939,0.7365215,
+bd5284b306ca7580e7e2,gpt-6-luna,C,narrow,tool_driven,dev-incomplete,completed,False,0.8571428571428571,221.409,349127,5268,315392,33735,0.010004795,unsupported_claims: Causal attribution is unsupported by these aggregate weekly fixtures
+be6341d1d78cd5cf2ac5,gpt-6-astra,E,broad,saved_script,dev-decline,completed,True,1.0,93.819,175948,1649,140928,35020,0.661128,
+becc01ea216e18941d31,gpt-6-astra,D,broad,tool_driven,dev-quiet,completed,True,1.0,183.489,240383,3961,218368,22015,0.6916055,
+c2648a8a40efb33ef16d,gpt-6-astra,C,narrow,tool_driven,dev-quiet,completed,True,1.0,191.836,309065,4053,277376,31689,0.8761385,
+cb104a742e596619d9a9,gpt-6-luna,E,narrow,saved_script,dev-decline,completed,True,1.0,70.42,211070,1590,188928,22142,0.00545203,
+cc31f7aa277ad52af64e,gpt-6.1-sol,C,narrow,tool_driven,dev-decline,completed,True,1.0,226.669,428776,6422,378368,50408,0.2280768,
+cc8bbdffc2a66c6cd691,gpt-6-luna,D,broad,tool_driven,dev-retry,completed,False,0.7142857142857143,382.544,377730,3866,347648,30082,0.00916973,evidence_support: search-position-improved: change requires a comparable cited percentage change; unsupported_claims: search-position-improved: prose number 0.7 lacks a matching structured claim
+ccdb83334343045fd732,gpt-6-astra,C,narrow,tool_driven,dev-zero,completed,False,0.8571428571428571,162.021,286540,2713,243072,43468,0.922072,unsupported_claims: Causal attribution is unsupported by these aggregate weekly fixtures
+cdd5846c06eeac6e4cf0,gpt-6-astra,D,broad,tool_driven,dev-decline,completed,False,0.8571428571428571,176.916,384655,3258,342144,42511,1.0364315,material_changes: Missing material change finding for posthog.sessions
+d104bbaa739acbbf398f,gpt-6-astra,E,narrow,saved_script,dev-incomplete,completed,True,1.0,319.027,217027,1142,159488,57539,0.9358255,
+d215c58051266b4a085e,deterministic,A,none,deterministic_pipeline,dev-retry,completed,True,1.0,0.1527437789999908,0,0,0,0,0.0,
+d32ed9f823f672def66f,gpt-6.1-sol,E,narrow,saved_script,dev-incomplete,completed,True,1.0,76.055,135780,1259,105600,30180,0.0986,
+d45b795793d768d6918c,gpt-6.1-sol,C,narrow,tool_driven,dev-zero,completed,False,0.8571428571428571,219.405,336797,6251,299520,37277,0.1856545,unsupported_claims: Causal attribution is unsupported by these aggregate weekly fixtures
+d6639e949896343db732,gpt-6.1-sol,C,narrow,tool_driven,dev-growth,completed,False,0.8571428571428571,237.064,327784,6698,275968,51816,0.2241168,material_changes: Missing material change finding for posthog.sessions
+d6e3419b9683926831b2,gpt-6.1-sol,E,narrow,saved_script,dev-growth,completed,True,1.0,145.913,229287,2571,210816,18471,0.0929691,
+da84156976cc8236ef2a,gpt-6.1-sol,D,broad,tool_driven,dev-growth,completed,False,0.8571428571428571,210.902,398956,5476,345344,53612,0.2233244,material_changes: Missing material change finding for posthog.sessions
+e03a88c9c921626fe5eb,gpt-6-luna,D,broad,tool_driven,dev-growth,completed,False,0.8571428571428571,117.69,337558,4317,267776,69782,0.01355901,material_changes: Missing material change finding for posthog.sessions
+e5b75aab130f0fab9011,gpt-6.1-sol,E,broad,saved_script,dev-zero,completed,True,1.0,140.591,215134,1569,178432,36702,0.1252882,
+e7b2a8685721b3cd0953,gpt-6-astra,D,broad,tool_driven,dev-retry,completed,True,1.0,199.998,267063,4304,228224,38839,0.9289115,
+ee98e36a9f209341f02a,gpt-6-astra,E,broad,saved_script,dev-incomplete,completed,True,1.0,96.625,166859,1385,134528,32331,0.6079155,
+f7cd1732185888664deb,gpt-6-astra,C,narrow,tool_driven,dev-growth,completed,False,0.8571428571428571,208.243,294371,4065,253184,41187,0.9712715,material_changes: Missing material change finding for posthog.sessions
