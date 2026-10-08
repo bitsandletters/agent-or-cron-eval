@@ -1,1 +1,1 @@
-TEST_MARKER_BEFORE_FULL
+@include(/workspace/agent-or-cron-eval/examples/cursor-ultra-pilot-2026-10-08/aggregate.json)
