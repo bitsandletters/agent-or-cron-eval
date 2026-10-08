@@ -180,6 +180,82 @@ def _amp(events: list[dict[str, Any]], source: str) -> dict[str, Any]:
     )
 
 
+def _cursor_native(raw: Mapping[str, Any]) -> dict[str, int | None]:
+    """Map Cursor CLI camelCase counters to canonical inclusive input.
+
+    Observed `agent --print --output-format stream-json` result.usage fields treat
+    `inputTokens` as uncached input alongside separate cache read/write counters.
+    Canonical input therefore sums the three disjoint parts when all are present.
+    """
+    uncached = _counter(raw, "inputTokens")
+    read = _counter(raw, "cacheReadTokens")
+    write = _counter(raw, "cacheWriteTokens")
+    output = _counter(raw, "outputTokens")
+    if uncached is not None and read is not None and write is not None:
+        inp: int | None = uncached + read + write
+    else:
+        inp = None
+    return {
+        "input_tokens": inp,
+        "output_tokens": output,
+        "cached_input_tokens": read,
+        "cache_write_tokens": write,
+        "reasoning_output_tokens": None,
+    }
+
+
+def _cursor(events: list[dict[str, Any]], source: str) -> dict[str, Any]:
+    # Prefer the terminal result aggregate. Intermediate events may repeat or
+    # omit usage; summing them would risk double-counting.
+    terminal = [
+        event["usage"]
+        for event in events
+        if event.get("type") == "result" and isinstance(event.get("usage"), dict)
+    ]
+    if not terminal:
+        return normalize_usage(
+            {
+                "source": source,
+                "notes": [
+                    "No documented Cursor type=result usage object found.",
+                    "Cursor stream schemas vary by CLI version; leave counters unknown rather than inferring.",
+                ],
+            }
+        )
+    native = _cursor_native(terminal[-1])
+    if all(native[key] is None for key in TOKEN_FIELDS):
+        return normalize_usage(
+            {
+                "source": source,
+                "notes": [
+                    "Cursor result.usage lacked recognized camelCase token counters.",
+                ],
+            }
+        )
+    return normalize_usage(
+        {
+            **native,
+            "source": source,
+            "provenance": "measured",
+            "notes": [
+                f"Used terminal result.usage aggregate from {len(terminal)} result event(s); did not sum intermediate events.",
+                "Mapped inputTokens+cacheReadTokens+cacheWriteTokens to canonical input (cache counters are subsets).",
+                "Cursor does not export reasoning_output_tokens or request_count in this stream shape.",
+                "A display-name model field is not a provider model ID.",
+            ],
+        }
+    )
+
+
+def extract_cursor_display_model(text: str) -> str | None:
+    """Return the first non-empty Cursor stream model display name, if any."""
+    for event in _events(text):
+        model = event.get("model")
+        if isinstance(model, str) and model.strip():
+            return model.strip()
+    return None
+
+
 def parse_usage_artifact(text: str, host: str, source: str | None = None) -> dict[str, Any]:
     """Parse only documented shapes, never private sessions or credentials.
 
@@ -193,6 +269,8 @@ def parse_usage_artifact(text: str, host: str, source: str | None = None) -> dic
         return _codex(events, label)
     if name == "amp":
         return _amp(events, label)
+    if name == "cursor":
+        return _cursor(events, label)
     return normalize_usage(
         {
             "source": label,
