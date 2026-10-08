@@ -115,7 +115,6 @@
       "host": "cursor",
       "runner": "command",
       "billing_route": "subscription",
-      "requested_route": "subscription",
       "requested_model": "claude-haiku-5-5-high",
       "timeout_seconds": 900,
       "argv": [
