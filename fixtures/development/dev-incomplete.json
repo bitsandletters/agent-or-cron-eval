@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "fixture_id": "dev-incomplete",
+  "split": "development",
+  "seed": 1104,
+  "periods": {
+    "previous": {
+      "start": "2026-09-14",
+      "end": "2026-09-20"
+    },
+    "current": {
+      "start": "2026-09-21",
+      "end": "2026-09-27"
+    }
+  },
+  "sources": {
+    "search_console": {
+      "previous": {
+        "clicks": 975,
+        "impressions": 19508,
+        "position": 6.378
+      },
+      "current": {
+        "clicks": 585,
+        "impressions": 11705,
+        "position": null
+      },
+      "completeness": {
+        "previous": {
+          "expected_days": 7,
+          "observed_days": 7,
+          "reason": null
+        },
+        "current": {
+          "expected_days": 7,
+          "observed_days": 4,
+          "reason": "Synthetic delayed ingestion"
+        }
+      }
+    },
+    "posthog": {
+      "previous": {
+        "sessions": 1729,
+        "users": 1441,
+        "conversions": 86
+      },
+      "current": {
+        "sessions": null,
+        "users": null,
+        "conversions": null
+      },
+      "completeness": {
+        "previous": {
+          "expected_days": 7,
+          "observed_days": 7,
+          "reason": null
+        },
+        "current": {
+          "expected_days": 7,
+          "observed_days": 4,
+          "reason": "Synthetic delayed ingestion"
+        }
+      }
+    }
+  },
+  "tool_failures": {}
+}

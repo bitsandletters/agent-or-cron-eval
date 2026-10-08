@@ -1,0 +1,231 @@
+{
+  "findings": [
+    {
+      "claims": [
+        {
+          "ref": "search_console.clicks.previous",
+          "value": 986
+        },
+        {
+          "ref": "search_console.clicks.current",
+          "value": 1232
+        },
+        {
+          "ref": "search_console.clicks.wow_pct",
+          "value": 24.94929
+        }
+      ],
+      "evidence_refs": [
+        "search_console.clicks.previous",
+        "search_console.clicks.current",
+        "search_console.clicks.wow_pct"
+      ],
+      "id": "f1",
+      "kind": "change",
+      "metric": "clicks",
+      "source": "search_console",
+      "statement": "search_console clicks increased from 986 to 1232 (24.94929% week over week)."
+    },
+    {
+      "claims": [
+        {
+          "ref": "posthog.sessions.previous",
+          "value": 1775
+        },
+        {
+          "ref": "posthog.sessions.current",
+          "value": 2130
+        },
+        {
+          "ref": "posthog.sessions.wow_pct",
+          "value": 20.0
+        }
+      ],
+      "evidence_refs": [
+        "posthog.sessions.previous",
+        "posthog.sessions.current",
+        "posthog.sessions.wow_pct"
+      ],
+      "id": "f2",
+      "kind": "change",
+      "metric": "sessions",
+      "source": "posthog",
+      "statement": "posthog sessions increased from 1775 to 2130 (20% week over week)."
+    }
+  ],
+  "fixture_id": "dev-growth",
+  "limitations": [
+    {
+      "code": "synthetic_data",
+      "detail": "This report uses synthetic fixture data only.",
+      "source": null
+    },
+    {
+      "code": "source_distinction",
+      "detail": "Search Console clicks and PostHog sessions measure different populations and are not interchangeable.",
+      "source": null
+    }
+  ],
+  "next_checks": [
+    "Check source collection coverage before drawing conclusions.",
+    "Segment each source by page and acquisition channel before proposing causes."
+  ],
+  "periods": {
+    "current": {
+      "end": "2026-09-27",
+      "start": "2026-09-21"
+    },
+    "previous": {
+      "end": "2026-09-20",
+      "start": "2026-09-14"
+    }
+  },
+  "schema_version": "1.0",
+  "sources": {
+    "posthog": {
+      "completeness": {
+        "current": {
+          "expected_days": 7,
+          "observed_days": 7,
+          "reason": null
+        },
+        "previous": {
+          "expected_days": 7,
+          "observed_days": 7,
+          "reason": null
+        }
+      },
+      "kpis": {
+        "conversion_rate": {
+          "absolute_change": 9.4e-05,
+          "current": 0.050234742,
+          "evidence_refs": [
+            "posthog.conversion_rate.previous",
+            "posthog.conversion_rate.current",
+            "posthog.conversion_rate.absolute_change",
+            "posthog.conversion_rate.wow_pct"
+          ],
+          "previous": 0.050140845,
+          "status": "ok",
+          "unit": "ratio",
+          "wow_pct": 0.187266
+        },
+        "conversions": {
+          "absolute_change": 18,
+          "current": 107,
+          "evidence_refs": [
+            "posthog.conversions.previous",
+            "posthog.conversions.current",
+            "posthog.conversions.absolute_change",
+            "posthog.conversions.wow_pct"
+          ],
+          "previous": 89,
+          "status": "ok",
+          "unit": "count",
+          "wow_pct": 20.224719
+        },
+        "sessions": {
+          "absolute_change": 355,
+          "current": 2130,
+          "evidence_refs": [
+            "posthog.sessions.previous",
+            "posthog.sessions.current",
+            "posthog.sessions.absolute_change",
+            "posthog.sessions.wow_pct"
+          ],
+          "previous": 1775,
+          "status": "ok",
+          "unit": "count",
+          "wow_pct": 20.0
+        },
+        "users": {
+          "absolute_change": 306,
+          "current": 1785,
+          "evidence_refs": [
+            "posthog.users.previous",
+            "posthog.users.current",
+            "posthog.users.absolute_change",
+            "posthog.users.wow_pct"
+          ],
+          "previous": 1479,
+          "status": "ok",
+          "unit": "count",
+          "wow_pct": 20.689655
+        }
+      }
+    },
+    "search_console": {
+      "completeness": {
+        "current": {
+          "expected_days": 7,
+          "observed_days": 7,
+          "reason": null
+        },
+        "previous": {
+          "expected_days": 7,
+          "observed_days": 7,
+          "reason": null
+        }
+      },
+      "kpis": {
+        "clicks": {
+          "absolute_change": 246,
+          "current": 1232,
+          "evidence_refs": [
+            "search_console.clicks.previous",
+            "search_console.clicks.current",
+            "search_console.clicks.absolute_change",
+            "search_console.clicks.wow_pct"
+          ],
+          "previous": 986,
+          "status": "ok",
+          "unit": "count",
+          "wow_pct": 24.94929
+        },
+        "ctr": {
+          "absolute_change": -2.2e-05,
+          "current": 0.049987828,
+          "evidence_refs": [
+            "search_console.ctr.previous",
+            "search_console.ctr.current",
+            "search_console.ctr.absolute_change",
+            "search_console.ctr.wow_pct"
+          ],
+          "previous": 0.050010144,
+          "status": "ok",
+          "unit": "ratio",
+          "wow_pct": -0.044623
+        },
+        "impressions": {
+          "absolute_change": 4930,
+          "current": 24646,
+          "evidence_refs": [
+            "search_console.impressions.previous",
+            "search_console.impressions.current",
+            "search_console.impressions.absolute_change",
+            "search_console.impressions.wow_pct"
+          ],
+          "previous": 19716,
+          "status": "ok",
+          "unit": "count",
+          "wow_pct": 25.005072
+        },
+        "position": {
+          "absolute_change": -0.3,
+          "current": 6.3,
+          "evidence_refs": [
+            "search_console.position.previous",
+            "search_console.position.current",
+            "search_console.position.absolute_change",
+            "search_console.position.wow_pct"
+          ],
+          "previous": 6.6,
+          "status": "ok",
+          "unit": "position",
+          "wow_pct": -4.545455
+        }
+      }
+    }
+  },
+  "summary": "Synthetic weekly analytics report. Changes describe observed source metrics; causal explanations require additional evidence."
+}

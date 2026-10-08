@@ -1,0 +1,59 @@
+{
+  "study_name": "synthetic-offline-demonstration",
+  "seed": 20261008,
+  "repeats": 5,
+  "split": "development",
+  "targets": [
+    {
+      "id": "deterministic-a",
+      "host": "python",
+      "runner": "baseline",
+      "requested_model": null,
+      "configuration": {
+        "pipeline": "v1"
+      },
+      "execution_styles": [
+        "deterministic_pipeline"
+      ],
+      "prompt_breadths": [
+        "none"
+      ],
+      "configured_main_model": null,
+      "configured_auxiliary_models": [],
+      "routing_mode": "explicit",
+      "invocation_mode": "fresh_context"
+    },
+    {
+      "id": "synthetic-mock",
+      "host": "offline-mock",
+      "runner": "mock",
+      "requested_model": "mock-not-a-real-model",
+      "configuration": {
+        "synthetic": true
+      },
+      "execution_styles": [
+        "prepared_evidence",
+        "tool_driven",
+        "saved_script"
+      ],
+      "prompt_breadths": [
+        "narrow",
+        "broad"
+      ],
+      "configured_main_model": "mock-not-a-real-model",
+      "configured_auxiliary_models": [],
+      "routing_mode": "explicit",
+      "invocation_mode": "fresh_context"
+    }
+  ],
+  "design": {
+    "primary_factors": [
+      "prompt_breadth",
+      "execution_style"
+    ],
+    "primary_comparison": "narrow/broad crossed with tool_driven/saved_script",
+    "secondary": "prepared_evidence interpretation at both breadths",
+    "baseline": "deterministic_pipeline has no prompt breadth",
+    "invocation_mode": "fresh_context"
+  }
+}

@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+"""Offline, no-install entry point from a clean checkout."""
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
+from cronbench.cli import main
+
+main()

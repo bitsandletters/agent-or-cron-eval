@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "invocation": "python tool.py TOOL [SOURCE]",
+  "tools": [
+    {
+      "name": "fetch",
+      "description": "Fetch one complete source block from the synthetic fixture. A scheduled transient error is recoverable by retrying this same tool. Tool failures and calls are logged. Both successful sources are required before calculate.",
+      "parameters": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source"
+        ],
+        "properties": {
+          "source": {
+            "enum": [
+              "search_console",
+              "posthog"
+            ]
+          }
+        }
+      },
+      "available_arms": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "name": "calculate",
+      "description": "Validate successfully fetched data and write evidence.json: unranked source-specific KPIs, completeness, arithmetic, stable numeric evidence references, and warnings. Does not select findings or generate reports.",
+      "parameters": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [],
+        "properties": {}
+      },
+      "available_arms": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "name": "render",
+      "description": "Read report.json and write canonical report.md without generating or changing the narrative.",
+      "parameters": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [],
+        "properties": {}
+      },
+      "available_arms": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "name": "saved-report",
+      "description": "Execute the full deterministic baseline: fetch with recoverable retries, validate, calculate, select findings, create report.json, and render report.md. Only arm E has this complete-report shortcut.",
+      "parameters": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [],
+        "properties": {}
+      },
+      "available_arms": [
+        "E"
+      ]
+    }
+  ]
+}

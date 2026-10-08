@@ -1,0 +1,74 @@
+{
+  "study_name": "synthetic-failure-retention-demo",
+  "seed": 20261008,
+  "repeats": 1,
+  "split": "development",
+  "fixtures": [
+    "dev-growth"
+  ],
+  "targets": [
+    {
+      "id": "quota-then-retry",
+      "host": "offline-mock",
+      "runner": "mock",
+      "mock_outcomes": [
+        "quota_exhausted",
+        "completed"
+      ],
+      "mock_missing_usage": true,
+      "execution_styles": [
+        "tool_driven"
+      ],
+      "prompt_breadths": [
+        "narrow"
+      ],
+      "configured_main_model": null,
+      "configured_auxiliary_models": [],
+      "routing_mode": "explicit",
+      "invocation_mode": "fresh_context"
+    },
+    {
+      "id": "bad-output",
+      "host": "offline-mock",
+      "runner": "mock",
+      "mock_bad_output": true,
+      "execution_styles": [
+        "tool_driven"
+      ],
+      "prompt_breadths": [
+        "broad"
+      ],
+      "configured_main_model": null,
+      "configured_auxiliary_models": [],
+      "routing_mode": "explicit",
+      "invocation_mode": "fresh_context"
+    },
+    {
+      "id": "missing-usage",
+      "host": "offline-mock",
+      "runner": "mock",
+      "mock_missing_usage": true,
+      "execution_styles": [
+        "prepared_evidence"
+      ],
+      "prompt_breadths": [
+        "narrow",
+        "broad"
+      ],
+      "configured_main_model": null,
+      "configured_auxiliary_models": [],
+      "routing_mode": "explicit",
+      "invocation_mode": "fresh_context"
+    }
+  ],
+  "design": {
+    "primary_factors": [
+      "prompt_breadth",
+      "execution_style"
+    ],
+    "primary_comparison": "narrow/broad crossed with tool_driven/saved_script",
+    "secondary": "prepared_evidence interpretation at both breadths",
+    "baseline": "deterministic_pipeline has no prompt breadth",
+    "invocation_mode": "fresh_context"
+  }
+}

@@ -1,0 +1,6 @@
+# Supported install: scripts/install.py (offline stdlib venv + launcher).
+# Controller fixtures and prompts remain versioned beside the source.
+[tool.cronbench]
+version = "0.1.0"
+python = ">=3.11"
+test-command = "python3 -m unittest discover -s tests -v"

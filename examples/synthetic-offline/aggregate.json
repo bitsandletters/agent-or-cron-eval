@@ -1,0 +1,4285 @@
+{
+  "attempt_costs": [
+    {
+      "attempt": 1,
+      "run_id": "4a452cc8323e22d69c66",
+      "runtime": {
+        "actual_model": null,
+        "actual_subscription_charge_usd": null,
+        "assumptions": [
+          "Explicitly recorded zero input and output tokens; no model rate is needed."
+        ],
+        "basis": "API-equivalent estimate; not an actual subscription charge",
+        "components_usd": {
+          "input": 0.0,
+          "output": 0.0
+        },
+        "conditional": false,
+        "currency": "USD",
+        "known_subtotal_usd": 0.0,
+        "matched_model": null,
+        "pricing_as_of": "2026-10-08",
+        "pricing_scope_verified": false,
+        "pricing_sources": [],
+        "rate_scope": null,
+        "rates": {},
+        "total_usd": 0.0,
+        "unavailable_reasons": [],
+        "usage_provenance": "measured",
+        "usage_source": "deterministic_no_llm"
+      },
+      "setup": {
+        "actual_model": null,
+        "actual_subscription_charge_usd": null,
+        "assumptions": [
+          "Explicitly recorded zero input and output tokens; no model rate is needed."
+        ],
+        "basis": "API-equivalent estimate; not an actual subscription charge",
+        "components_usd": {
+          "input": 0.0,
+          "output": 0.0
+        },
+        "conditional": false,
+        "currency": "USD",
+        "known_subtotal_usd": 0.0,
+        "matched_model": null,
+        "pricing_as_of": "2026-10-08",
+        "pricing_scope_verified": false,
+        "pricing_sources": [],
+        "rate_scope": null,
+        "rates": {},
+        "total_usd": 0.0,
+        "unavailable_reasons": [],
+        "usage_provenance": "measured",
+        "usage_source": "deterministic_no_llm"
+      }
+    },
+    {
+      "attempt": 1,
+      "run_id": "5272369cb3f364597545",
+      "runtime": {
+        "actual_model": null,
+        "actual_subscription_charge_usd": null,
+        "assumptions": [],
+        "basis": "API-equivalent estimate; not an actual subscription charge",
+        "components_usd": {},
+        "conditional": true,
+        "currency": "USD",
+        "known_subtotal_usd": null,
+        "matched_model": null,
+        "pricing_as_of": "2026-10-08",
+        "pricing_scope_verified": false,
+        "pricing_sources": [],
+        "rate_scope": null,
+        "rates": {},
+        "total_usd": null,
+        "unavailable_reasons": [
+          "Actual model ID is unknown."
+        ],
+        "usage_provenance": "estimated",
+        "usage_source": "synthetic_mock"
+      },
+      "setup": {
+        "actual_model": null,
+        "actual_subscription_charge_usd": null,
+        "assumptions": [
+          "Explicitly recorded zero input and output tokens; no model rate is needed."
+        ],
+        "basis": "API-equivalent estimate; not an actual subscription charge",
+        "components_usd": {
+          "input": 0.0,
+          "output": 0.0
+        },
+        "conditional": false,
+        "currency": "USD",
+        "known_subtotal_usd": 0.0,
+        "matched_model": null,
+        "pricing_as_of": "2026-10-08",
+        "pricing_scope_verified": false,
+        "pricing_sources": [],
+        "rate_scope": null,
+        "rates": {},
+        "total_usd": 0.0,
+        "unavailable_reasons": [],
+        "usage_provenance": "measured",
+        "usage_source": "deterministic_no_llm"
+      }
+    },
+    {
+      "attempt": 1,
+      "run_id": "55df46fcd15ed9263a87",
+      "runtime": {
+        "actual_model": null,
+        "actual_subscription_charge_usd": null,
+        "assumptions": [],
+        "basis": "API-equivalent estimate; not an actual subscription charge",
+        "components_usd": {},
+        "conditional": true,
+        "currency": "USD",
+        "known_subtotal_usd": null,
+        "matched_model": null,
+        "pricing_as_of": "2026-10-08",
+        "pricing_scope_verified": false,
+        "pricing_sources": [],
+        "rate_scope": null,
+        "rates": {},
+        "total_usd": null,
+        "unavailable_reasons": [
+          "Actual model ID is unknown."
+        ],
+        "usage_provenance": "estimated",
+        "usage_source": "synthetic_mock"
+      },
+      "setup": {
+        "actual_model": null,
+        "actual_subscription_charge_usd": null,
+        "assumptions": [
+          "Explicitly recorded zero input and output tokens; no model rate is needed."
+        ],
+        "basis": "API-equivalent estimate; not an actual subscription charge",
+        "components_usd": {
+          "input": 0.0,
+          "output": 0.0
+        },
+        "conditional": false,
+        "currency": "USD",
+        "known_subtotal_usd": 0.0,
+        "matched_model": null,
+        "pricing_as_of": "2026-10-08",
+        "pricing_scope_verified": false,
+        "pricing_sources": [],
+        "rate_scope": null,
+        "rates": {},
+        "total_usd": 0.0,
+        "unavailable_reasons": [],
+        "usage_provenance": "measured",
+        "usage_source": "deterministic_no_llm"
+      }
+    },
+    {
+      "attempt": 1,
+      "run_id": "b9e02e6858aca21f4984",
+      "runtime": {
+        "actual_model": null,
+        "actual_subscription_charge_usd": null,
+        "assumptions": [],
+        "basis": "API-equivalent estimate; not an actual subscription charge",
+        "components_usd": {},
+        "conditional": true,
+        "currency": "USD",
+        "known_subtotal_usd": null,
+        "matched_model": null,
+        "pricing_as_of": "2026-10-08",
+        "pricing_scope_verified": false,
+        "pricing_sources": [],
+        "rate_scope": null,
+        "rates": {},
+        "total_usd": null,
+        "unavailable_reasons": [
+          "Actual model ID is unknown."
+        ],
+        "usage_provenance": "estimated",
+        "usage_source": "synthetic_mock"
+      },
+      "setup": {
+        "actual_model": null,
+        "actual_subscription_charge_usd": null,
+        "assumptions": [
+          "Explicitly recorded zero input and output tokens; no model rate is needed."
+        ],
+        "basis": "API-equivalent estimate; not an actual subscription charge",
+        "components_usd": {
+          "input": 0.0,
+          "output": 0.0
+        },
+        "conditional": false,
+        "currency": "USD",
+        "known_subtotal_usd": 0.0,
+        "matched_model": null,
+        "pricing_as_of": "2026-10-08",
+        "pricing_scope_verified": false,
+        "pricing_sources": [],
+        "rate_scope": null,
+        "rates": {},
+        "total_usd": 0.0,
+        "unavailable_reasons": [],
+        "usage_provenance": "measured",
+        "usage_source": "deterministic_no_llm"
+      }
+    },
+    {
+      "attempt": 1,
+      "run_id": "d148f18b7e87001903ad",
+      "runtime": {
+        "actual_model": null,
+        "actual_subscription_charge_usd": null,
+        "assumptions": [],
+        "basis": "API-equivalent estimate; not an actual subscription charge",
+        "components_usd": {},
+        "conditional": true,
+        "currency": "USD",
+        "known_subtotal_usd": null,
+        "matched_model": null,
+        "pricing_as_of": "2026-10-08",
+        "pricing_scope_verified": false,
+        "pricing_sources": [],
+        "rate_scope": null,
+        "rates": {},
+        "total_usd": null,
+        "unavailable_reasons": [
+          "Actual model ID is unknown."
+        ],
+        "usage_provenance": "estimated",
+        "usage_source": "synthetic_mock"
+      },
+      "setup": {
+        "actual_model": null,
+        "actual_subscription_charge_usd": null,
+        "assumptions": [
+          "Explicitly recorded zero input and output tokens; no model rate is needed."
+        ],
+        "basis": "API-equivalent estimate; not an actual subscription charge",
+        "components_usd": {
+          "input": 0.0,
+          "output": 0.0
+        },
+        "conditional": false,
+        "currency": "USD",
+        "known_subtotal_usd": 0.0,
+        "matched_model": null,
+        "pricing_as_of": "2026-10-08",
+        "pricing_scope_verified": false,
+        "pricing_sources": [],
+        "rate_scope": null,
+        "rates": {},
+        "total_usd": 0.0,
+        "unavailable_reasons": [],
+        "usage_provenance": "measured",
+        "usage_source": "deterministic_no_llm"
+      }
+    },
+    {
+      "attempt": 1,
+      "run_id": "e90cb0a2a0655dc25735",
+      "runtime": {
+        "actual_model": null,
+        "actual_subscription_charge_usd": null,
+        "assumptions": [],
+        "basis": "API-equivalent estimate; not an actual subscription charge",
+        "components_usd": {},
+        "conditional": true,
+        "currency": "USD",
+        "known_subtotal_usd": null,
+        "matched_model": null,
+        "pricing_as_of": "2026-10-08",
+        "pricing_scope_verified": false,
+        "pricing_sources": [],
+        "rate_scope": null,
+        "rates": {},
+        "total_usd": null,
+        "unavailable_reasons": [
+          "Actual model ID is unknown."
+        ],
+        "usage_provenance": "estimated",
+        "usage_source": "synthetic_mock"
+      },
+      "setup": {
+        "actual_model": null,
+        "actual_subscription_charge_usd": null,
+        "assumptions": [
+          "Explicitly recorded zero input and output tokens; no model rate is needed."
+        ],
+        "basis": "API-equivalent estimate; not an actual subscription charge",
+        "components_usd": {
+          "input": 0.0,
+          "output": 0.0
+        },
+        "conditional": false,
+        "currency": "USD",
+        "known_subtotal_usd": 0.0,
+        "matched_model": null,
+        "pricing_as_of": "2026-10-08",
+        "pricing_scope_verified": false,
+        "pricing_sources": [],
+        "rate_scope": null,
+        "rates": {},
+        "total_usd": 0.0,
+        "unavailable_reasons": [],
+        "usage_provenance": "measured",
+        "usage_source": "deterministic_no_llm"
+      }
+    },
+    {
+      "attempt": 1,
+      "run_id": "eee390e54c571828c54a",
+      "runtime": {
+        "actual_model": null,
+        "actual_subscription_charge_usd": null,
+        "assumptions": [],
+        "basis": "API-equivalent estimate; not an actual subscription charge",
+        "components_usd": {},
+        "conditional": true,
+        "currency": "USD",
+        "known_subtotal_usd": null,
+        "matched_model": null,
+        "pricing_as_of": "2026-10-08",
+        "pricing_scope_verified": false,
+        "pricing_sources": [],
+        "rate_scope": null,
+        "rates": {},
+        "total_usd": null,
+        "unavailable_reasons": [
+          "Actual model ID is unknown."
+        ],
+        "usage_provenance": "estimated",
+        "usage_source": "synthetic_mock"
+      },
+      "setup": {
+        "actual_model": null,
+        "actual_subscription_charge_usd": null,
+        "assumptions": [
+          "Explicitly recorded zero input and output tokens; no model rate is needed."
+        ],
+        "basis": "API-equivalent estimate; not an actual subscription charge",
+        "components_usd": {
+          "input": 0.0,
+          "output": 0.0
+        },
+        "conditional": false,
+        "currency": "USD",
+        "known_subtotal_usd": 0.0,
+        "matched_model": null,
+        "pricing_as_of": "2026-10-08",
+        "pricing_scope_verified": false,
+        "pricing_sources": [],
+        "rate_scope": null,
+        "rates": {},
+        "total_usd": 0.0,
+        "unavailable_reasons": [],
+        "usage_provenance": "measured",
+        "usage_source": "deterministic_no_llm"
+      }
+    }
+  ],
+  "groups": [
+    {
+      "additional_attempt_count": 0,
+      "attempts": {
+        "completion_rate": 1.0,
+        "count": 1,
+        "execution_failure_rate": 0.0,
+        "latency_seconds": {
+          "max": 0.10224520799238235,
+          "mean": 0.10224520799238235,
+          "median": 0.10224520799238235,
+          "min": 0.10224520799238235,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.10224520799238235,
+          "population_stdev": 0.0
+        },
+        "metrics": {
+          "evidence_support": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "markdown": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "material_changes": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "missing_data": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "numeric_accuracy": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "schema": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "unsupported_claims": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          }
+        },
+        "pass_rate": 1.0,
+        "passing_count": 1,
+        "score": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 1,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "scored_count": 1,
+        "scored_pass_rate": 1.0,
+        "setup_seconds": {
+          "max": 0.004229165992001072,
+          "mean": 0.004229165992001072,
+          "median": 0.004229165992001072,
+          "min": 0.004229165992001072,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.004229165992001072,
+          "population_stdev": 0.0
+        },
+        "status_counts": {
+          "completed": 1
+        }
+      },
+      "conditional_pricing_attempt_count": 0,
+      "cross_group_run_ids": [],
+      "final_runs": {
+        "completion_rate": 1.0,
+        "count": 1,
+        "execution_failure_rate": 0.0,
+        "latency_seconds": {
+          "max": 0.10224520799238235,
+          "mean": 0.10224520799238235,
+          "median": 0.10224520799238235,
+          "min": 0.10224520799238235,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.10224520799238235,
+          "population_stdev": 0.0
+        },
+        "metrics": {
+          "evidence_support": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "markdown": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "material_changes": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "missing_data": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "numeric_accuracy": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "schema": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "unsupported_claims": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          }
+        },
+        "pass_rate": 1.0,
+        "passing_count": 1,
+        "score": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 1,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "scored_count": 1,
+        "scored_pass_rate": 1.0,
+        "setup_seconds": {
+          "max": 0.004229165992001072,
+          "mean": 0.004229165992001072,
+          "median": 0.004229165992001072,
+          "min": 0.004229165992001072,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.004229165992001072,
+          "population_stdev": 0.0
+        },
+        "status_counts": {
+          "completed": 1
+        }
+      },
+      "first_attempts": {
+        "completion_rate": 1.0,
+        "count": 1,
+        "execution_failure_rate": 0.0,
+        "latency_seconds": {
+          "max": 0.10224520799238235,
+          "mean": 0.10224520799238235,
+          "median": 0.10224520799238235,
+          "min": 0.10224520799238235,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.10224520799238235,
+          "population_stdev": 0.0
+        },
+        "metrics": {
+          "evidence_support": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "markdown": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "material_changes": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "missing_data": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "numeric_accuracy": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "schema": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "unsupported_claims": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          }
+        },
+        "pass_rate": 1.0,
+        "passing_count": 1,
+        "score": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 1,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "scored_count": 1,
+        "scored_pass_rate": 1.0,
+        "setup_seconds": {
+          "max": 0.004229165992001072,
+          "mean": 0.004229165992001072,
+          "median": 0.004229165992001072,
+          "min": 0.004229165992001072,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.004229165992001072,
+          "population_stdev": 0.0
+        },
+        "status_counts": {
+          "completed": 1
+        }
+      },
+      "fixture_counts": {
+        "dev-growth": 1
+      },
+      "identity": {
+        "actual_model": null,
+        "arm": "A",
+        "cache_state": "unknown",
+        "configuration": {
+          "host_version": null,
+          "native": {},
+          "pipeline": "v1",
+          "subscription_route": "not_applicable",
+          "treatment_verified": true
+        },
+        "configured_auxiliary_models": [],
+        "configured_main_model": null,
+        "factors": {
+          "execution_style": "deterministic_pipeline",
+          "prompt_breadth": "none"
+        },
+        "host": "python",
+        "invocation_mode": "fresh_context",
+        "mock": false,
+        "observed_models": null,
+        "requested_model": null,
+        "routing_mode": "explicit",
+        "split": "development"
+      },
+      "repeat_values": [
+        1
+      ],
+      "retried_run_count": 0,
+      "runtime_api_equivalent_cost_per_passing_report_usd": 0.0,
+      "runtime_api_equivalent_cost_per_scheduled_report_usd": 0.0,
+      "runtime_api_equivalent_usd": {
+        "complete_sum": 0.0,
+        "known_sum": 0.0,
+        "missing": 0,
+        "observed": 1
+      },
+      "runtime_known_partial_subtotal_usd": {
+        "complete_sum": 0.0,
+        "known_sum": 0.0,
+        "missing": 0,
+        "observed": 1
+      },
+      "setup_api_equivalent_usd": {
+        "complete_sum": 0.0,
+        "known_sum": 0.0,
+        "missing": 0,
+        "observed": 1
+      },
+      "tool_count": {
+        "complete_sum": 3,
+        "known_sum": 3,
+        "missing": 0,
+        "observed": 1
+      },
+      "total_attempt_latency_per_final_run_seconds": {
+        "max": 0.10224520799238235,
+        "mean": 0.10224520799238235,
+        "median": 0.10224520799238235,
+        "min": 0.10224520799238235,
+        "missing": 0,
+        "observed": 1,
+        "p95": 0.10224520799238235,
+        "population_stdev": 0.0
+      },
+      "usage": {
+        "cache_write_tokens": {
+          "complete_sum": 0,
+          "known_sum": 0,
+          "missing": 0,
+          "observed": 1
+        },
+        "cached_input_tokens": {
+          "complete_sum": 0,
+          "known_sum": 0,
+          "missing": 0,
+          "observed": 1
+        },
+        "input_tokens": {
+          "complete_sum": 0,
+          "known_sum": 0,
+          "missing": 0,
+          "observed": 1
+        },
+        "output_tokens": {
+          "complete_sum": 0,
+          "known_sum": 0,
+          "missing": 0,
+          "observed": 1
+        },
+        "reasoning_output_tokens": {
+          "complete_sum": 0,
+          "known_sum": 0,
+          "missing": 0,
+          "observed": 1
+        },
+        "request_count": {
+          "complete_sum": 0,
+          "known_sum": 0,
+          "missing": 0,
+          "observed": 1
+        }
+      },
+      "usage_provenance_counts": {
+        "measured": 1
+      },
+      "weekly_projections": [
+        {
+          "assumptions": [
+            "One report per week with this observed fixture/model/configuration mix.",
+            "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+            "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+            "Not a forecast of subscription charges; no allowance for future model or price changes."
+          ],
+          "runtime_api_equivalent_usd": 0.0,
+          "weekly_reports": 4,
+          "weeks": 4
+        },
+        {
+          "assumptions": [
+            "One report per week with this observed fixture/model/configuration mix.",
+            "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+            "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+            "Not a forecast of subscription charges; no allowance for future model or price changes."
+          ],
+          "runtime_api_equivalent_usd": 0.0,
+          "weekly_reports": 13,
+          "weeks": 13
+        },
+        {
+          "assumptions": [
+            "One report per week with this observed fixture/model/configuration mix.",
+            "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+            "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+            "Not a forecast of subscription charges; no allowance for future model or price changes."
+          ],
+          "runtime_api_equivalent_usd": 0.0,
+          "weekly_reports": 52,
+          "weeks": 52
+        }
+      ]
+    },
+    {
+      "additional_attempt_count": 0,
+      "attempts": {
+        "completion_rate": 1.0,
+        "count": 1,
+        "execution_failure_rate": 0.0,
+        "latency_seconds": {
+          "max": 0.0982541239936836,
+          "mean": 0.0982541239936836,
+          "median": 0.0982541239936836,
+          "min": 0.0982541239936836,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.0982541239936836,
+          "population_stdev": 0.0
+        },
+        "metrics": {
+          "evidence_support": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "markdown": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "material_changes": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "missing_data": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "numeric_accuracy": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "schema": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "unsupported_claims": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          }
+        },
+        "pass_rate": 1.0,
+        "passing_count": 1,
+        "score": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 1,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "scored_count": 1,
+        "scored_pass_rate": 1.0,
+        "setup_seconds": {
+          "max": 0.003855458984617144,
+          "mean": 0.003855458984617144,
+          "median": 0.003855458984617144,
+          "min": 0.003855458984617144,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.003855458984617144,
+          "population_stdev": 0.0
+        },
+        "status_counts": {
+          "completed": 1
+        }
+      },
+      "conditional_pricing_attempt_count": 1,
+      "cross_group_run_ids": [],
+      "final_runs": {
+        "completion_rate": 1.0,
+        "count": 1,
+        "execution_failure_rate": 0.0,
+        "latency_seconds": {
+          "max": 0.0982541239936836,
+          "mean": 0.0982541239936836,
+          "median": 0.0982541239936836,
+          "min": 0.0982541239936836,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.0982541239936836,
+          "population_stdev": 0.0
+        },
+        "metrics": {
+          "evidence_support": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "markdown": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "material_changes": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "missing_data": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "numeric_accuracy": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "schema": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "unsupported_claims": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          }
+        },
+        "pass_rate": 1.0,
+        "passing_count": 1,
+        "score": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 1,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "scored_count": 1,
+        "scored_pass_rate": 1.0,
+        "setup_seconds": {
+          "max": 0.003855458984617144,
+          "mean": 0.003855458984617144,
+          "median": 0.003855458984617144,
+          "min": 0.003855458984617144,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.003855458984617144,
+          "population_stdev": 0.0
+        },
+        "status_counts": {
+          "completed": 1
+        }
+      },
+      "first_attempts": {
+        "completion_rate": 1.0,
+        "count": 1,
+        "execution_failure_rate": 0.0,
+        "latency_seconds": {
+          "max": 0.0982541239936836,
+          "mean": 0.0982541239936836,
+          "median": 0.0982541239936836,
+          "min": 0.0982541239936836,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.0982541239936836,
+          "population_stdev": 0.0
+        },
+        "metrics": {
+          "evidence_support": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "markdown": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "material_changes": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "missing_data": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "numeric_accuracy": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "schema": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "unsupported_claims": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          }
+        },
+        "pass_rate": 1.0,
+        "passing_count": 1,
+        "score": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 1,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "scored_count": 1,
+        "scored_pass_rate": 1.0,
+        "setup_seconds": {
+          "max": 0.003855458984617144,
+          "mean": 0.003855458984617144,
+          "median": 0.003855458984617144,
+          "min": 0.003855458984617144,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.003855458984617144,
+          "population_stdev": 0.0
+        },
+        "status_counts": {
+          "completed": 1
+        }
+      },
+      "fixture_counts": {
+        "dev-growth": 1
+      },
+      "identity": {
+        "actual_model": null,
+        "arm": "B",
+        "cache_state": "unknown",
+        "configuration": {
+          "host_version": null,
+          "native": {},
+          "subscription_route": "not_applicable",
+          "synthetic": true,
+          "treatment_verified": true
+        },
+        "configured_auxiliary_models": [],
+        "configured_main_model": "mock-not-a-real-model",
+        "factors": {
+          "execution_style": "prepared_evidence",
+          "prompt_breadth": "broad"
+        },
+        "host": "offline-mock",
+        "invocation_mode": "fresh_context",
+        "mock": true,
+        "observed_models": null,
+        "requested_model": "mock-not-a-real-model",
+        "routing_mode": "explicit",
+        "split": "development"
+      },
+      "repeat_values": [
+        1
+      ],
+      "retried_run_count": 0,
+      "runtime_api_equivalent_cost_per_passing_report_usd": null,
+      "runtime_api_equivalent_cost_per_scheduled_report_usd": null,
+      "runtime_api_equivalent_usd": {
+        "complete_sum": null,
+        "known_sum": null,
+        "missing": 1,
+        "observed": 0
+      },
+      "runtime_known_partial_subtotal_usd": {
+        "complete_sum": null,
+        "known_sum": null,
+        "missing": 1,
+        "observed": 0
+      },
+      "setup_api_equivalent_usd": {
+        "complete_sum": 0.0,
+        "known_sum": 0.0,
+        "missing": 0,
+        "observed": 1
+      },
+      "tool_count": {
+        "complete_sum": 3,
+        "known_sum": 3,
+        "missing": 0,
+        "observed": 1
+      },
+      "total_attempt_latency_per_final_run_seconds": {
+        "max": 0.0982541239936836,
+        "mean": 0.0982541239936836,
+        "median": 0.0982541239936836,
+        "min": 0.0982541239936836,
+        "missing": 0,
+        "observed": 1,
+        "p95": 0.0982541239936836,
+        "population_stdev": 0.0
+      },
+      "usage": {
+        "cache_write_tokens": {
+          "complete_sum": 0,
+          "known_sum": 0,
+          "missing": 0,
+          "observed": 1
+        },
+        "cached_input_tokens": {
+          "complete_sum": 0,
+          "known_sum": 0,
+          "missing": 0,
+          "observed": 1
+        },
+        "input_tokens": {
+          "complete_sum": 1200,
+          "known_sum": 1200,
+          "missing": 0,
+          "observed": 1
+        },
+        "output_tokens": {
+          "complete_sum": 400,
+          "known_sum": 400,
+          "missing": 0,
+          "observed": 1
+        },
+        "reasoning_output_tokens": {
+          "complete_sum": 50,
+          "known_sum": 50,
+          "missing": 0,
+          "observed": 1
+        },
+        "request_count": {
+          "complete_sum": 1,
+          "known_sum": 1,
+          "missing": 0,
+          "observed": 1
+        }
+      },
+      "usage_provenance_counts": {
+        "estimated": 1
+      },
+      "weekly_projections": [
+        {
+          "assumptions": [
+            "One report per week with this observed fixture/model/configuration mix.",
+            "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+            "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+            "Not a forecast of subscription charges; no allowance for future model or price changes."
+          ],
+          "runtime_api_equivalent_usd": null,
+          "weekly_reports": 4,
+          "weeks": 4
+        },
+        {
+          "assumptions": [
+            "One report per week with this observed fixture/model/configuration mix.",
+            "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+            "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+            "Not a forecast of subscription charges; no allowance for future model or price changes."
+          ],
+          "runtime_api_equivalent_usd": null,
+          "weekly_reports": 13,
+          "weeks": 13
+        },
+        {
+          "assumptions": [
+            "One report per week with this observed fixture/model/configuration mix.",
+            "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+            "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+            "Not a forecast of subscription charges; no allowance for future model or price changes."
+          ],
+          "runtime_api_equivalent_usd": null,
+          "weekly_reports": 52,
+          "weeks": 52
+        }
+      ]
+    },
+    {
+      "additional_attempt_count": 0,
+      "attempts": {
+        "completion_rate": 1.0,
+        "count": 1,
+        "execution_failure_rate": 0.0,
+        "latency_seconds": {
+          "max": 0.09789116602041759,
+          "mean": 0.09789116602041759,
+          "median": 0.09789116602041759,
+          "min": 0.09789116602041759,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.09789116602041759,
+          "population_stdev": 0.0
+        },
+        "metrics": {
+          "evidence_support": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "markdown": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "material_changes": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "missing_data": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "numeric_accuracy": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "schema": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "unsupported_claims": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          }
+        },
+        "pass_rate": 1.0,
+        "passing_count": 1,
+        "score": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 1,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "scored_count": 1,
+        "scored_pass_rate": 1.0,
+        "setup_seconds": {
+          "max": 0.0034644579864107072,
+          "mean": 0.0034644579864107072,
+          "median": 0.0034644579864107072,
+          "min": 0.0034644579864107072,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.0034644579864107072,
+          "population_stdev": 0.0
+        },
+        "status_counts": {
+          "completed": 1
+        }
+      },
+      "conditional_pricing_attempt_count": 1,
+      "cross_group_run_ids": [],
+      "final_runs": {
+        "completion_rate": 1.0,
+        "count": 1,
+        "execution_failure_rate": 0.0,
+        "latency_seconds": {
+          "max": 0.09789116602041759,
+          "mean": 0.09789116602041759,
+          "median": 0.09789116602041759,
+          "min": 0.09789116602041759,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.09789116602041759,
+          "population_stdev": 0.0
+        },
+        "metrics": {
+          "evidence_support": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "markdown": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "material_changes": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "missing_data": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "numeric_accuracy": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "schema": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "unsupported_claims": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          }
+        },
+        "pass_rate": 1.0,
+        "passing_count": 1,
+        "score": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 1,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "scored_count": 1,
+        "scored_pass_rate": 1.0,
+        "setup_seconds": {
+          "max": 0.0034644579864107072,
+          "mean": 0.0034644579864107072,
+          "median": 0.0034644579864107072,
+          "min": 0.0034644579864107072,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.0034644579864107072,
+          "population_stdev": 0.0
+        },
+        "status_counts": {
+          "completed": 1
+        }
+      },
+      "first_attempts": {
+        "completion_rate": 1.0,
+        "count": 1,
+        "execution_failure_rate": 0.0,
+        "latency_seconds": {
+          "max": 0.09789116602041759,
+          "mean": 0.09789116602041759,
+          "median": 0.09789116602041759,
+          "min": 0.09789116602041759,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.09789116602041759,
+          "population_stdev": 0.0
+        },
+        "metrics": {
+          "evidence_support": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "markdown": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "material_changes": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "missing_data": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "numeric_accuracy": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "schema": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "unsupported_claims": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          }
+        },
+        "pass_rate": 1.0,
+        "passing_count": 1,
+        "score": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 1,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "scored_count": 1,
+        "scored_pass_rate": 1.0,
+        "setup_seconds": {
+          "max": 0.0034644579864107072,
+          "mean": 0.0034644579864107072,
+          "median": 0.0034644579864107072,
+          "min": 0.0034644579864107072,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.0034644579864107072,
+          "population_stdev": 0.0
+        },
+        "status_counts": {
+          "completed": 1
+        }
+      },
+      "fixture_counts": {
+        "dev-growth": 1
+      },
+      "identity": {
+        "actual_model": null,
+        "arm": "B",
+        "cache_state": "unknown",
+        "configuration": {
+          "host_version": null,
+          "native": {},
+          "subscription_route": "not_applicable",
+          "synthetic": true,
+          "treatment_verified": true
+        },
+        "configured_auxiliary_models": [],
+        "configured_main_model": "mock-not-a-real-model",
+        "factors": {
+          "execution_style": "prepared_evidence",
+          "prompt_breadth": "narrow"
+        },
+        "host": "offline-mock",
+        "invocation_mode": "fresh_context",
+        "mock": true,
+        "observed_models": null,
+        "requested_model": "mock-not-a-real-model",
+        "routing_mode": "explicit",
+        "split": "development"
+      },
+      "repeat_values": [
+        1
+      ],
+      "retried_run_count": 0,
+      "runtime_api_equivalent_cost_per_passing_report_usd": null,
+      "runtime_api_equivalent_cost_per_scheduled_report_usd": null,
+      "runtime_api_equivalent_usd": {
+        "complete_sum": null,
+        "known_sum": null,
+        "missing": 1,
+        "observed": 0
+      },
+      "runtime_known_partial_subtotal_usd": {
+        "complete_sum": null,
+        "known_sum": null,
+        "missing": 1,
+        "observed": 0
+      },
+      "setup_api_equivalent_usd": {
+        "complete_sum": 0.0,
+        "known_sum": 0.0,
+        "missing": 0,
+        "observed": 1
+      },
+      "tool_count": {
+        "complete_sum": 3,
+        "known_sum": 3,
+        "missing": 0,
+        "observed": 1
+      },
+      "total_attempt_latency_per_final_run_seconds": {
+        "max": 0.09789116602041759,
+        "mean": 0.09789116602041759,
+        "median": 0.09789116602041759,
+        "min": 0.09789116602041759,
+        "missing": 0,
+        "observed": 1,
+        "p95": 0.09789116602041759,
+        "population_stdev": 0.0
+      },
+      "usage": {
+        "cache_write_tokens": {
+          "complete_sum": 0,
+          "known_sum": 0,
+          "missing": 0,
+          "observed": 1
+        },
+        "cached_input_tokens": {
+          "complete_sum": 0,
+          "known_sum": 0,
+          "missing": 0,
+          "observed": 1
+        },
+        "input_tokens": {
+          "complete_sum": 1200,
+          "known_sum": 1200,
+          "missing": 0,
+          "observed": 1
+        },
+        "output_tokens": {
+          "complete_sum": 400,
+          "known_sum": 400,
+          "missing": 0,
+          "observed": 1
+        },
+        "reasoning_output_tokens": {
+          "complete_sum": 50,
+          "known_sum": 50,
+          "missing": 0,
+          "observed": 1
+        },
+        "request_count": {
+          "complete_sum": 1,
+          "known_sum": 1,
+          "missing": 0,
+          "observed": 1
+        }
+      },
+      "usage_provenance_counts": {
+        "estimated": 1
+      },
+      "weekly_projections": [
+        {
+          "assumptions": [
+            "One report per week with this observed fixture/model/configuration mix.",
+            "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+            "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+            "Not a forecast of subscription charges; no allowance for future model or price changes."
+          ],
+          "runtime_api_equivalent_usd": null,
+          "weekly_reports": 4,
+          "weeks": 4
+        },
+        {
+          "assumptions": [
+            "One report per week with this observed fixture/model/configuration mix.",
+            "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+            "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+            "Not a forecast of subscription charges; no allowance for future model or price changes."
+          ],
+          "runtime_api_equivalent_usd": null,
+          "weekly_reports": 13,
+          "weeks": 13
+        },
+        {
+          "assumptions": [
+            "One report per week with this observed fixture/model/configuration mix.",
+            "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+            "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+            "Not a forecast of subscription charges; no allowance for future model or price changes."
+          ],
+          "runtime_api_equivalent_usd": null,
+          "weekly_reports": 52,
+          "weeks": 52
+        }
+      ]
+    },
+    {
+      "additional_attempt_count": 0,
+      "attempts": {
+        "completion_rate": 1.0,
+        "count": 1,
+        "execution_failure_rate": 0.0,
+        "latency_seconds": {
+          "max": 0.09904479098622687,
+          "mean": 0.09904479098622687,
+          "median": 0.09904479098622687,
+          "min": 0.09904479098622687,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.09904479098622687,
+          "population_stdev": 0.0
+        },
+        "metrics": {
+          "evidence_support": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "markdown": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "material_changes": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "missing_data": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "numeric_accuracy": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "schema": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "unsupported_claims": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          }
+        },
+        "pass_rate": 1.0,
+        "passing_count": 1,
+        "score": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 1,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "scored_count": 1,
+        "scored_pass_rate": 1.0,
+        "setup_seconds": {
+          "max": 0.004060167004354298,
+          "mean": 0.004060167004354298,
+          "median": 0.004060167004354298,
+          "min": 0.004060167004354298,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.004060167004354298,
+          "population_stdev": 0.0
+        },
+        "status_counts": {
+          "completed": 1
+        }
+      },
+      "conditional_pricing_attempt_count": 1,
+      "cross_group_run_ids": [],
+      "final_runs": {
+        "completion_rate": 1.0,
+        "count": 1,
+        "execution_failure_rate": 0.0,
+        "latency_seconds": {
+          "max": 0.09904479098622687,
+          "mean": 0.09904479098622687,
+          "median": 0.09904479098622687,
+          "min": 0.09904479098622687,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.09904479098622687,
+          "population_stdev": 0.0
+        },
+        "metrics": {
+          "evidence_support": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "markdown": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "material_changes": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "missing_data": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "numeric_accuracy": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "schema": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "unsupported_claims": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          }
+        },
+        "pass_rate": 1.0,
+        "passing_count": 1,
+        "score": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 1,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "scored_count": 1,
+        "scored_pass_rate": 1.0,
+        "setup_seconds": {
+          "max": 0.004060167004354298,
+          "mean": 0.004060167004354298,
+          "median": 0.004060167004354298,
+          "min": 0.004060167004354298,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.004060167004354298,
+          "population_stdev": 0.0
+        },
+        "status_counts": {
+          "completed": 1
+        }
+      },
+      "first_attempts": {
+        "completion_rate": 1.0,
+        "count": 1,
+        "execution_failure_rate": 0.0,
+        "latency_seconds": {
+          "max": 0.09904479098622687,
+          "mean": 0.09904479098622687,
+          "median": 0.09904479098622687,
+          "min": 0.09904479098622687,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.09904479098622687,
+          "population_stdev": 0.0
+        },
+        "metrics": {
+          "evidence_support": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "markdown": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "material_changes": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "missing_data": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "numeric_accuracy": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "schema": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "unsupported_claims": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          }
+        },
+        "pass_rate": 1.0,
+        "passing_count": 1,
+        "score": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 1,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "scored_count": 1,
+        "scored_pass_rate": 1.0,
+        "setup_seconds": {
+          "max": 0.004060167004354298,
+          "mean": 0.004060167004354298,
+          "median": 0.004060167004354298,
+          "min": 0.004060167004354298,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.004060167004354298,
+          "population_stdev": 0.0
+        },
+        "status_counts": {
+          "completed": 1
+        }
+      },
+      "fixture_counts": {
+        "dev-growth": 1
+      },
+      "identity": {
+        "actual_model": null,
+        "arm": "C",
+        "cache_state": "unknown",
+        "configuration": {
+          "host_version": null,
+          "native": {},
+          "subscription_route": "not_applicable",
+          "synthetic": true,
+          "treatment_verified": true
+        },
+        "configured_auxiliary_models": [],
+        "configured_main_model": "mock-not-a-real-model",
+        "factors": {
+          "execution_style": "tool_driven",
+          "prompt_breadth": "narrow"
+        },
+        "host": "offline-mock",
+        "invocation_mode": "fresh_context",
+        "mock": true,
+        "observed_models": null,
+        "requested_model": "mock-not-a-real-model",
+        "routing_mode": "explicit",
+        "split": "development"
+      },
+      "repeat_values": [
+        1
+      ],
+      "retried_run_count": 0,
+      "runtime_api_equivalent_cost_per_passing_report_usd": null,
+      "runtime_api_equivalent_cost_per_scheduled_report_usd": null,
+      "runtime_api_equivalent_usd": {
+        "complete_sum": null,
+        "known_sum": null,
+        "missing": 1,
+        "observed": 0
+      },
+      "runtime_known_partial_subtotal_usd": {
+        "complete_sum": null,
+        "known_sum": null,
+        "missing": 1,
+        "observed": 0
+      },
+      "setup_api_equivalent_usd": {
+        "complete_sum": 0.0,
+        "known_sum": 0.0,
+        "missing": 0,
+        "observed": 1
+      },
+      "tool_count": {
+        "complete_sum": 3,
+        "known_sum": 3,
+        "missing": 0,
+        "observed": 1
+      },
+      "total_attempt_latency_per_final_run_seconds": {
+        "max": 0.09904479098622687,
+        "mean": 0.09904479098622687,
+        "median": 0.09904479098622687,
+        "min": 0.09904479098622687,
+        "missing": 0,
+        "observed": 1,
+        "p95": 0.09904479098622687,
+        "population_stdev": 0.0
+      },
+      "usage": {
+        "cache_write_tokens": {
+          "complete_sum": 0,
+          "known_sum": 0,
+          "missing": 0,
+          "observed": 1
+        },
+        "cached_input_tokens": {
+          "complete_sum": 0,
+          "known_sum": 0,
+          "missing": 0,
+          "observed": 1
+        },
+        "input_tokens": {
+          "complete_sum": 1200,
+          "known_sum": 1200,
+          "missing": 0,
+          "observed": 1
+        },
+        "output_tokens": {
+          "complete_sum": 400,
+          "known_sum": 400,
+          "missing": 0,
+          "observed": 1
+        },
+        "reasoning_output_tokens": {
+          "complete_sum": 50,
+          "known_sum": 50,
+          "missing": 0,
+          "observed": 1
+        },
+        "request_count": {
+          "complete_sum": 2,
+          "known_sum": 2,
+          "missing": 0,
+          "observed": 1
+        }
+      },
+      "usage_provenance_counts": {
+        "estimated": 1
+      },
+      "weekly_projections": [
+        {
+          "assumptions": [
+            "One report per week with this observed fixture/model/configuration mix.",
+            "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+            "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+            "Not a forecast of subscription charges; no allowance for future model or price changes."
+          ],
+          "runtime_api_equivalent_usd": null,
+          "weekly_reports": 4,
+          "weeks": 4
+        },
+        {
+          "assumptions": [
+            "One report per week with this observed fixture/model/configuration mix.",
+            "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+            "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+            "Not a forecast of subscription charges; no allowance for future model or price changes."
+          ],
+          "runtime_api_equivalent_usd": null,
+          "weekly_reports": 13,
+          "weeks": 13
+        },
+        {
+          "assumptions": [
+            "One report per week with this observed fixture/model/configuration mix.",
+            "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+            "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+            "Not a forecast of subscription charges; no allowance for future model or price changes."
+          ],
+          "runtime_api_equivalent_usd": null,
+          "weekly_reports": 52,
+          "weeks": 52
+        }
+      ]
+    },
+    {
+      "additional_attempt_count": 0,
+      "attempts": {
+        "completion_rate": 1.0,
+        "count": 1,
+        "execution_failure_rate": 0.0,
+        "latency_seconds": {
+          "max": 0.10043345802114345,
+          "mean": 0.10043345802114345,
+          "median": 0.10043345802114345,
+          "min": 0.10043345802114345,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.10043345802114345,
+          "population_stdev": 0.0
+        },
+        "metrics": {
+          "evidence_support": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "markdown": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "material_changes": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "missing_data": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "numeric_accuracy": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "schema": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "unsupported_claims": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          }
+        },
+        "pass_rate": 1.0,
+        "passing_count": 1,
+        "score": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 1,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "scored_count": 1,
+        "scored_pass_rate": 1.0,
+        "setup_seconds": {
+          "max": 0.004200042021693662,
+          "mean": 0.004200042021693662,
+          "median": 0.004200042021693662,
+          "min": 0.004200042021693662,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.004200042021693662,
+          "population_stdev": 0.0
+        },
+        "status_counts": {
+          "completed": 1
+        }
+      },
+      "conditional_pricing_attempt_count": 1,
+      "cross_group_run_ids": [],
+      "final_runs": {
+        "completion_rate": 1.0,
+        "count": 1,
+        "execution_failure_rate": 0.0,
+        "latency_seconds": {
+          "max": 0.10043345802114345,
+          "mean": 0.10043345802114345,
+          "median": 0.10043345802114345,
+          "min": 0.10043345802114345,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.10043345802114345,
+          "population_stdev": 0.0
+        },
+        "metrics": {
+          "evidence_support": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "markdown": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "material_changes": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "missing_data": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "numeric_accuracy": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "schema": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "unsupported_claims": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          }
+        },
+        "pass_rate": 1.0,
+        "passing_count": 1,
+        "score": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 1,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "scored_count": 1,
+        "scored_pass_rate": 1.0,
+        "setup_seconds": {
+          "max": 0.004200042021693662,
+          "mean": 0.004200042021693662,
+          "median": 0.004200042021693662,
+          "min": 0.004200042021693662,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.004200042021693662,
+          "population_stdev": 0.0
+        },
+        "status_counts": {
+          "completed": 1
+        }
+      },
+      "first_attempts": {
+        "completion_rate": 1.0,
+        "count": 1,
+        "execution_failure_rate": 0.0,
+        "latency_seconds": {
+          "max": 0.10043345802114345,
+          "mean": 0.10043345802114345,
+          "median": 0.10043345802114345,
+          "min": 0.10043345802114345,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.10043345802114345,
+          "population_stdev": 0.0
+        },
+        "metrics": {
+          "evidence_support": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "markdown": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "material_changes": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "missing_data": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "numeric_accuracy": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "schema": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "unsupported_claims": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          }
+        },
+        "pass_rate": 1.0,
+        "passing_count": 1,
+        "score": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 1,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "scored_count": 1,
+        "scored_pass_rate": 1.0,
+        "setup_seconds": {
+          "max": 0.004200042021693662,
+          "mean": 0.004200042021693662,
+          "median": 0.004200042021693662,
+          "min": 0.004200042021693662,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.004200042021693662,
+          "population_stdev": 0.0
+        },
+        "status_counts": {
+          "completed": 1
+        }
+      },
+      "fixture_counts": {
+        "dev-growth": 1
+      },
+      "identity": {
+        "actual_model": null,
+        "arm": "D",
+        "cache_state": "unknown",
+        "configuration": {
+          "host_version": null,
+          "native": {},
+          "subscription_route": "not_applicable",
+          "synthetic": true,
+          "treatment_verified": true
+        },
+        "configured_auxiliary_models": [],
+        "configured_main_model": "mock-not-a-real-model",
+        "factors": {
+          "execution_style": "tool_driven",
+          "prompt_breadth": "broad"
+        },
+        "host": "offline-mock",
+        "invocation_mode": "fresh_context",
+        "mock": true,
+        "observed_models": null,
+        "requested_model": "mock-not-a-real-model",
+        "routing_mode": "explicit",
+        "split": "development"
+      },
+      "repeat_values": [
+        1
+      ],
+      "retried_run_count": 0,
+      "runtime_api_equivalent_cost_per_passing_report_usd": null,
+      "runtime_api_equivalent_cost_per_scheduled_report_usd": null,
+      "runtime_api_equivalent_usd": {
+        "complete_sum": null,
+        "known_sum": null,
+        "missing": 1,
+        "observed": 0
+      },
+      "runtime_known_partial_subtotal_usd": {
+        "complete_sum": null,
+        "known_sum": null,
+        "missing": 1,
+        "observed": 0
+      },
+      "setup_api_equivalent_usd": {
+        "complete_sum": 0.0,
+        "known_sum": 0.0,
+        "missing": 0,
+        "observed": 1
+      },
+      "tool_count": {
+        "complete_sum": 3,
+        "known_sum": 3,
+        "missing": 0,
+        "observed": 1
+      },
+      "total_attempt_latency_per_final_run_seconds": {
+        "max": 0.10043345802114345,
+        "mean": 0.10043345802114345,
+        "median": 0.10043345802114345,
+        "min": 0.10043345802114345,
+        "missing": 0,
+        "observed": 1,
+        "p95": 0.10043345802114345,
+        "population_stdev": 0.0
+      },
+      "usage": {
+        "cache_write_tokens": {
+          "complete_sum": 0,
+          "known_sum": 0,
+          "missing": 0,
+          "observed": 1
+        },
+        "cached_input_tokens": {
+          "complete_sum": 0,
+          "known_sum": 0,
+          "missing": 0,
+          "observed": 1
+        },
+        "input_tokens": {
+          "complete_sum": 1200,
+          "known_sum": 1200,
+          "missing": 0,
+          "observed": 1
+        },
+        "output_tokens": {
+          "complete_sum": 400,
+          "known_sum": 400,
+          "missing": 0,
+          "observed": 1
+        },
+        "reasoning_output_tokens": {
+          "complete_sum": 50,
+          "known_sum": 50,
+          "missing": 0,
+          "observed": 1
+        },
+        "request_count": {
+          "complete_sum": 2,
+          "known_sum": 2,
+          "missing": 0,
+          "observed": 1
+        }
+      },
+      "usage_provenance_counts": {
+        "estimated": 1
+      },
+      "weekly_projections": [
+        {
+          "assumptions": [
+            "One report per week with this observed fixture/model/configuration mix.",
+            "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+            "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+            "Not a forecast of subscription charges; no allowance for future model or price changes."
+          ],
+          "runtime_api_equivalent_usd": null,
+          "weekly_reports": 4,
+          "weeks": 4
+        },
+        {
+          "assumptions": [
+            "One report per week with this observed fixture/model/configuration mix.",
+            "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+            "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+            "Not a forecast of subscription charges; no allowance for future model or price changes."
+          ],
+          "runtime_api_equivalent_usd": null,
+          "weekly_reports": 13,
+          "weeks": 13
+        },
+        {
+          "assumptions": [
+            "One report per week with this observed fixture/model/configuration mix.",
+            "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+            "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+            "Not a forecast of subscription charges; no allowance for future model or price changes."
+          ],
+          "runtime_api_equivalent_usd": null,
+          "weekly_reports": 52,
+          "weeks": 52
+        }
+      ]
+    },
+    {
+      "additional_attempt_count": 0,
+      "attempts": {
+        "completion_rate": 1.0,
+        "count": 1,
+        "execution_failure_rate": 0.0,
+        "latency_seconds": {
+          "max": 0.037389583012554795,
+          "mean": 0.037389583012554795,
+          "median": 0.037389583012554795,
+          "min": 0.037389583012554795,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.037389583012554795,
+          "population_stdev": 0.0
+        },
+        "metrics": {
+          "evidence_support": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "markdown": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "material_changes": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "missing_data": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "numeric_accuracy": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "schema": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "unsupported_claims": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          }
+        },
+        "pass_rate": 1.0,
+        "passing_count": 1,
+        "score": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 1,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "scored_count": 1,
+        "scored_pass_rate": 1.0,
+        "setup_seconds": {
+          "max": 0.004101292026462033,
+          "mean": 0.004101292026462033,
+          "median": 0.004101292026462033,
+          "min": 0.004101292026462033,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.004101292026462033,
+          "population_stdev": 0.0
+        },
+        "status_counts": {
+          "completed": 1
+        }
+      },
+      "conditional_pricing_attempt_count": 1,
+      "cross_group_run_ids": [],
+      "final_runs": {
+        "completion_rate": 1.0,
+        "count": 1,
+        "execution_failure_rate": 0.0,
+        "latency_seconds": {
+          "max": 0.037389583012554795,
+          "mean": 0.037389583012554795,
+          "median": 0.037389583012554795,
+          "min": 0.037389583012554795,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.037389583012554795,
+          "population_stdev": 0.0
+        },
+        "metrics": {
+          "evidence_support": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "markdown": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "material_changes": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "missing_data": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "numeric_accuracy": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "schema": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "unsupported_claims": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          }
+        },
+        "pass_rate": 1.0,
+        "passing_count": 1,
+        "score": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 1,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "scored_count": 1,
+        "scored_pass_rate": 1.0,
+        "setup_seconds": {
+          "max": 0.004101292026462033,
+          "mean": 0.004101292026462033,
+          "median": 0.004101292026462033,
+          "min": 0.004101292026462033,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.004101292026462033,
+          "population_stdev": 0.0
+        },
+        "status_counts": {
+          "completed": 1
+        }
+      },
+      "first_attempts": {
+        "completion_rate": 1.0,
+        "count": 1,
+        "execution_failure_rate": 0.0,
+        "latency_seconds": {
+          "max": 0.037389583012554795,
+          "mean": 0.037389583012554795,
+          "median": 0.037389583012554795,
+          "min": 0.037389583012554795,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.037389583012554795,
+          "population_stdev": 0.0
+        },
+        "metrics": {
+          "evidence_support": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "markdown": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "material_changes": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "missing_data": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "numeric_accuracy": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "schema": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "unsupported_claims": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          }
+        },
+        "pass_rate": 1.0,
+        "passing_count": 1,
+        "score": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 1,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "scored_count": 1,
+        "scored_pass_rate": 1.0,
+        "setup_seconds": {
+          "max": 0.004101292026462033,
+          "mean": 0.004101292026462033,
+          "median": 0.004101292026462033,
+          "min": 0.004101292026462033,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.004101292026462033,
+          "population_stdev": 0.0
+        },
+        "status_counts": {
+          "completed": 1
+        }
+      },
+      "fixture_counts": {
+        "dev-growth": 1
+      },
+      "identity": {
+        "actual_model": null,
+        "arm": "E",
+        "cache_state": "unknown",
+        "configuration": {
+          "host_version": null,
+          "native": {},
+          "subscription_route": "not_applicable",
+          "synthetic": true,
+          "treatment_verified": true
+        },
+        "configured_auxiliary_models": [],
+        "configured_main_model": "mock-not-a-real-model",
+        "factors": {
+          "execution_style": "saved_script",
+          "prompt_breadth": "broad"
+        },
+        "host": "offline-mock",
+        "invocation_mode": "fresh_context",
+        "mock": true,
+        "observed_models": null,
+        "requested_model": "mock-not-a-real-model",
+        "routing_mode": "explicit",
+        "split": "development"
+      },
+      "repeat_values": [
+        1
+      ],
+      "retried_run_count": 0,
+      "runtime_api_equivalent_cost_per_passing_report_usd": null,
+      "runtime_api_equivalent_cost_per_scheduled_report_usd": null,
+      "runtime_api_equivalent_usd": {
+        "complete_sum": null,
+        "known_sum": null,
+        "missing": 1,
+        "observed": 0
+      },
+      "runtime_known_partial_subtotal_usd": {
+        "complete_sum": null,
+        "known_sum": null,
+        "missing": 1,
+        "observed": 0
+      },
+      "setup_api_equivalent_usd": {
+        "complete_sum": 0.0,
+        "known_sum": 0.0,
+        "missing": 0,
+        "observed": 1
+      },
+      "tool_count": {
+        "complete_sum": 4,
+        "known_sum": 4,
+        "missing": 0,
+        "observed": 1
+      },
+      "total_attempt_latency_per_final_run_seconds": {
+        "max": 0.037389583012554795,
+        "mean": 0.037389583012554795,
+        "median": 0.037389583012554795,
+        "min": 0.037389583012554795,
+        "missing": 0,
+        "observed": 1,
+        "p95": 0.037389583012554795,
+        "population_stdev": 0.0
+      },
+      "usage": {
+        "cache_write_tokens": {
+          "complete_sum": 0,
+          "known_sum": 0,
+          "missing": 0,
+          "observed": 1
+        },
+        "cached_input_tokens": {
+          "complete_sum": 0,
+          "known_sum": 0,
+          "missing": 0,
+          "observed": 1
+        },
+        "input_tokens": {
+          "complete_sum": 1200,
+          "known_sum": 1200,
+          "missing": 0,
+          "observed": 1
+        },
+        "output_tokens": {
+          "complete_sum": 400,
+          "known_sum": 400,
+          "missing": 0,
+          "observed": 1
+        },
+        "reasoning_output_tokens": {
+          "complete_sum": 50,
+          "known_sum": 50,
+          "missing": 0,
+          "observed": 1
+        },
+        "request_count": {
+          "complete_sum": 2,
+          "known_sum": 2,
+          "missing": 0,
+          "observed": 1
+        }
+      },
+      "usage_provenance_counts": {
+        "estimated": 1
+      },
+      "weekly_projections": [
+        {
+          "assumptions": [
+            "One report per week with this observed fixture/model/configuration mix.",
+            "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+            "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+            "Not a forecast of subscription charges; no allowance for future model or price changes."
+          ],
+          "runtime_api_equivalent_usd": null,
+          "weekly_reports": 4,
+          "weeks": 4
+        },
+        {
+          "assumptions": [
+            "One report per week with this observed fixture/model/configuration mix.",
+            "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+            "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+            "Not a forecast of subscription charges; no allowance for future model or price changes."
+          ],
+          "runtime_api_equivalent_usd": null,
+          "weekly_reports": 13,
+          "weeks": 13
+        },
+        {
+          "assumptions": [
+            "One report per week with this observed fixture/model/configuration mix.",
+            "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+            "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+            "Not a forecast of subscription charges; no allowance for future model or price changes."
+          ],
+          "runtime_api_equivalent_usd": null,
+          "weekly_reports": 52,
+          "weeks": 52
+        }
+      ]
+    },
+    {
+      "additional_attempt_count": 0,
+      "attempts": {
+        "completion_rate": 1.0,
+        "count": 1,
+        "execution_failure_rate": 0.0,
+        "latency_seconds": {
+          "max": 0.0357563330035191,
+          "mean": 0.0357563330035191,
+          "median": 0.0357563330035191,
+          "min": 0.0357563330035191,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.0357563330035191,
+          "population_stdev": 0.0
+        },
+        "metrics": {
+          "evidence_support": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "markdown": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "material_changes": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "missing_data": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "numeric_accuracy": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "schema": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "unsupported_claims": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          }
+        },
+        "pass_rate": 1.0,
+        "passing_count": 1,
+        "score": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 1,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "scored_count": 1,
+        "scored_pass_rate": 1.0,
+        "setup_seconds": {
+          "max": 0.0034877079888246953,
+          "mean": 0.0034877079888246953,
+          "median": 0.0034877079888246953,
+          "min": 0.0034877079888246953,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.0034877079888246953,
+          "population_stdev": 0.0
+        },
+        "status_counts": {
+          "completed": 1
+        }
+      },
+      "conditional_pricing_attempt_count": 1,
+      "cross_group_run_ids": [],
+      "final_runs": {
+        "completion_rate": 1.0,
+        "count": 1,
+        "execution_failure_rate": 0.0,
+        "latency_seconds": {
+          "max": 0.0357563330035191,
+          "mean": 0.0357563330035191,
+          "median": 0.0357563330035191,
+          "min": 0.0357563330035191,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.0357563330035191,
+          "population_stdev": 0.0
+        },
+        "metrics": {
+          "evidence_support": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "markdown": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "material_changes": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "missing_data": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "numeric_accuracy": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "schema": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "unsupported_claims": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          }
+        },
+        "pass_rate": 1.0,
+        "passing_count": 1,
+        "score": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 1,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "scored_count": 1,
+        "scored_pass_rate": 1.0,
+        "setup_seconds": {
+          "max": 0.0034877079888246953,
+          "mean": 0.0034877079888246953,
+          "median": 0.0034877079888246953,
+          "min": 0.0034877079888246953,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.0034877079888246953,
+          "population_stdev": 0.0
+        },
+        "status_counts": {
+          "completed": 1
+        }
+      },
+      "first_attempts": {
+        "completion_rate": 1.0,
+        "count": 1,
+        "execution_failure_rate": 0.0,
+        "latency_seconds": {
+          "max": 0.0357563330035191,
+          "mean": 0.0357563330035191,
+          "median": 0.0357563330035191,
+          "min": 0.0357563330035191,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.0357563330035191,
+          "population_stdev": 0.0
+        },
+        "metrics": {
+          "evidence_support": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "markdown": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "material_changes": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "missing_data": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "numeric_accuracy": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "schema": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          },
+          "unsupported_claims": {
+            "max": 1.0,
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "missing": 0,
+            "observed": 1,
+            "p95": 1.0,
+            "population_stdev": 0.0
+          }
+        },
+        "pass_rate": 1.0,
+        "passing_count": 1,
+        "score": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 1,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "scored_count": 1,
+        "scored_pass_rate": 1.0,
+        "setup_seconds": {
+          "max": 0.0034877079888246953,
+          "mean": 0.0034877079888246953,
+          "median": 0.0034877079888246953,
+          "min": 0.0034877079888246953,
+          "missing": 0,
+          "observed": 1,
+          "p95": 0.0034877079888246953,
+          "population_stdev": 0.0
+        },
+        "status_counts": {
+          "completed": 1
+        }
+      },
+      "fixture_counts": {
+        "dev-growth": 1
+      },
+      "identity": {
+        "actual_model": null,
+        "arm": "E",
+        "cache_state": "unknown",
+        "configuration": {
+          "host_version": null,
+          "native": {},
+          "subscription_route": "not_applicable",
+          "synthetic": true,
+          "treatment_verified": true
+        },
+        "configured_auxiliary_models": [],
+        "configured_main_model": "mock-not-a-real-model",
+        "factors": {
+          "execution_style": "saved_script",
+          "prompt_breadth": "narrow"
+        },
+        "host": "offline-mock",
+        "invocation_mode": "fresh_context",
+        "mock": true,
+        "observed_models": null,
+        "requested_model": "mock-not-a-real-model",
+        "routing_mode": "explicit",
+        "split": "development"
+      },
+      "repeat_values": [
+        1
+      ],
+      "retried_run_count": 0,
+      "runtime_api_equivalent_cost_per_passing_report_usd": null,
+      "runtime_api_equivalent_cost_per_scheduled_report_usd": null,
+      "runtime_api_equivalent_usd": {
+        "complete_sum": null,
+        "known_sum": null,
+        "missing": 1,
+        "observed": 0
+      },
+      "runtime_known_partial_subtotal_usd": {
+        "complete_sum": null,
+        "known_sum": null,
+        "missing": 1,
+        "observed": 0
+      },
+      "setup_api_equivalent_usd": {
+        "complete_sum": 0.0,
+        "known_sum": 0.0,
+        "missing": 0,
+        "observed": 1
+      },
+      "tool_count": {
+        "complete_sum": 4,
+        "known_sum": 4,
+        "missing": 0,
+        "observed": 1
+      },
+      "total_attempt_latency_per_final_run_seconds": {
+        "max": 0.0357563330035191,
+        "mean": 0.0357563330035191,
+        "median": 0.0357563330035191,
+        "min": 0.0357563330035191,
+        "missing": 0,
+        "observed": 1,
+        "p95": 0.0357563330035191,
+        "population_stdev": 0.0
+      },
+      "usage": {
+        "cache_write_tokens": {
+          "complete_sum": 0,
+          "known_sum": 0,
+          "missing": 0,
+          "observed": 1
+        },
+        "cached_input_tokens": {
+          "complete_sum": 0,
+          "known_sum": 0,
+          "missing": 0,
+          "observed": 1
+        },
+        "input_tokens": {
+          "complete_sum": 1200,
+          "known_sum": 1200,
+          "missing": 0,
+          "observed": 1
+        },
+        "output_tokens": {
+          "complete_sum": 400,
+          "known_sum": 400,
+          "missing": 0,
+          "observed": 1
+        },
+        "reasoning_output_tokens": {
+          "complete_sum": 50,
+          "known_sum": 50,
+          "missing": 0,
+          "observed": 1
+        },
+        "request_count": {
+          "complete_sum": 2,
+          "known_sum": 2,
+          "missing": 0,
+          "observed": 1
+        }
+      },
+      "usage_provenance_counts": {
+        "estimated": 1
+      },
+      "weekly_projections": [
+        {
+          "assumptions": [
+            "One report per week with this observed fixture/model/configuration mix.",
+            "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+            "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+            "Not a forecast of subscription charges; no allowance for future model or price changes."
+          ],
+          "runtime_api_equivalent_usd": null,
+          "weekly_reports": 4,
+          "weeks": 4
+        },
+        {
+          "assumptions": [
+            "One report per week with this observed fixture/model/configuration mix.",
+            "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+            "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+            "Not a forecast of subscription charges; no allowance for future model or price changes."
+          ],
+          "runtime_api_equivalent_usd": null,
+          "weekly_reports": 13,
+          "weeks": 13
+        },
+        {
+          "assumptions": [
+            "One report per week with this observed fixture/model/configuration mix.",
+            "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+            "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+            "Not a forecast of subscription charges; no allowance for future model or price changes."
+          ],
+          "runtime_api_equivalent_usd": null,
+          "weekly_reports": 52,
+          "weeks": 52
+        }
+      ]
+    }
+  ],
+  "incomplete_attempt_histories": [],
+  "notes": [
+    "Pass rate includes failed, timeout, protocol-error, quota-exhausted, and unscored final outcomes in its denominator.",
+    "First-attempt outcomes include recorded attempt 1 only; final-run outcomes use the greatest recorded attempt number. All attempts remain visible.",
+    "Retries never replace earlier attempts in the usage, cost, or attempt-failure totals.",
+    "Total attempt latency per final run sums recorded attempts, excludes gaps between retries, and is unknown if any attempt latency or history is missing.",
+    "Unknown actual model IDs form a separate group; display names are not inferred model IDs.",
+    "Mock, cache state, split, host, requested/actual model, configuration, prompt/execution factors, configured/observed models, routing mode, and invocation mode are separate groups.",
+    "Opaque host routing and multiple requests are observed configuration/outcomes, not disqualifications. A single-model price requires verified run-wide token attribution; otherwise actual model and total cost remain unknown.",
+    "Overall mixes are descriptive totals, not evidence that different hosts or model configurations are causally comparable.",
+    "A known partial subtotal is not a complete cost. Cost per passing report and projections require complete attempt costs.",
+    "Canonical input includes cache subsets and canonical output includes reasoning subsets; do not sum these columns together.",
+    "Setup cost is unknown unless setup_usage was explicitly recorded; runtime projections exclude setup."
+  ],
+  "overall": {
+    "additional_attempt_count": 0,
+    "attempts": {
+      "completion_rate": 1.0,
+      "count": 7,
+      "execution_failure_rate": 0.0,
+      "latency_seconds": {
+        "max": 0.10224520799238235,
+        "mean": 0.08157352328998968,
+        "median": 0.0982541239936836,
+        "min": 0.0357563330035191,
+        "missing": 0,
+        "observed": 7,
+        "p95": 0.10170168300101068,
+        "population_stdev": 0.02849612577605355
+      },
+      "metrics": {
+        "evidence_support": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 7,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "markdown": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 7,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "material_changes": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 7,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "missing_data": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 7,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "numeric_accuracy": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 7,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "schema": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 7,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "unsupported_claims": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 7,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        }
+      },
+      "pass_rate": 1.0,
+      "passing_count": 7,
+      "score": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "missing": 0,
+        "observed": 7,
+        "p95": 1.0,
+        "population_stdev": 0.0
+      },
+      "scored_count": 7,
+      "scored_pass_rate": 1.0,
+      "setup_seconds": {
+        "max": 0.004229165992001072,
+        "mean": 0.003914041714909088,
+        "median": 0.004060167004354298,
+        "min": 0.0034644579864107072,
+        "missing": 0,
+        "observed": 7,
+        "p95": 0.004220428800908849,
+        "population_stdev": 0.0002987671515941335
+      },
+      "status_counts": {
+        "completed": 7
+      }
+    },
+    "conditional_pricing_attempt_count": 6,
+    "final_runs": {
+      "completion_rate": 1.0,
+      "count": 7,
+      "execution_failure_rate": 0.0,
+      "latency_seconds": {
+        "max": 0.10224520799238235,
+        "mean": 0.08157352328998968,
+        "median": 0.0982541239936836,
+        "min": 0.0357563330035191,
+        "missing": 0,
+        "observed": 7,
+        "p95": 0.10170168300101068,
+        "population_stdev": 0.02849612577605355
+      },
+      "metrics": {
+        "evidence_support": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 7,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "markdown": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 7,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "material_changes": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 7,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "missing_data": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 7,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "numeric_accuracy": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 7,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "schema": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 7,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "unsupported_claims": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 7,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        }
+      },
+      "pass_rate": 1.0,
+      "passing_count": 7,
+      "score": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "missing": 0,
+        "observed": 7,
+        "p95": 1.0,
+        "population_stdev": 0.0
+      },
+      "scored_count": 7,
+      "scored_pass_rate": 1.0,
+      "setup_seconds": {
+        "max": 0.004229165992001072,
+        "mean": 0.003914041714909088,
+        "median": 0.004060167004354298,
+        "min": 0.0034644579864107072,
+        "missing": 0,
+        "observed": 7,
+        "p95": 0.004220428800908849,
+        "population_stdev": 0.0002987671515941335
+      },
+      "status_counts": {
+        "completed": 7
+      }
+    },
+    "first_attempts": {
+      "completion_rate": 1.0,
+      "count": 7,
+      "execution_failure_rate": 0.0,
+      "latency_seconds": {
+        "max": 0.10224520799238235,
+        "mean": 0.08157352328998968,
+        "median": 0.0982541239936836,
+        "min": 0.0357563330035191,
+        "missing": 0,
+        "observed": 7,
+        "p95": 0.10170168300101068,
+        "population_stdev": 0.02849612577605355
+      },
+      "metrics": {
+        "evidence_support": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 7,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "markdown": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 7,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "material_changes": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 7,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "missing_data": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 7,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "numeric_accuracy": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 7,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "schema": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 7,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        },
+        "unsupported_claims": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "missing": 0,
+          "observed": 7,
+          "p95": 1.0,
+          "population_stdev": 0.0
+        }
+      },
+      "pass_rate": 1.0,
+      "passing_count": 7,
+      "score": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "missing": 0,
+        "observed": 7,
+        "p95": 1.0,
+        "population_stdev": 0.0
+      },
+      "scored_count": 7,
+      "scored_pass_rate": 1.0,
+      "setup_seconds": {
+        "max": 0.004229165992001072,
+        "mean": 0.003914041714909088,
+        "median": 0.004060167004354298,
+        "min": 0.0034644579864107072,
+        "missing": 0,
+        "observed": 7,
+        "p95": 0.004220428800908849,
+        "population_stdev": 0.0002987671515941335
+      },
+      "status_counts": {
+        "completed": 7
+      }
+    },
+    "fixture_counts": {
+      "dev-growth": 7
+    },
+    "repeat_values": [
+      1
+    ],
+    "retried_run_count": 0,
+    "runtime_api_equivalent_cost_per_passing_report_usd": null,
+    "runtime_api_equivalent_cost_per_scheduled_report_usd": null,
+    "runtime_api_equivalent_usd": {
+      "complete_sum": null,
+      "known_sum": 0.0,
+      "missing": 6,
+      "observed": 1
+    },
+    "runtime_known_partial_subtotal_usd": {
+      "complete_sum": null,
+      "known_sum": 0.0,
+      "missing": 6,
+      "observed": 1
+    },
+    "setup_api_equivalent_usd": {
+      "complete_sum": 0.0,
+      "known_sum": 0.0,
+      "missing": 0,
+      "observed": 7
+    },
+    "tool_count": {
+      "complete_sum": 23,
+      "known_sum": 23,
+      "missing": 0,
+      "observed": 7
+    },
+    "total_attempt_latency_per_final_run_seconds": {
+      "max": 0.10224520799238235,
+      "mean": 0.08157352328998968,
+      "median": 0.0982541239936836,
+      "min": 0.0357563330035191,
+      "missing": 0,
+      "observed": 7,
+      "p95": 0.10170168300101068,
+      "population_stdev": 0.02849612577605355
+    },
+    "usage": {
+      "cache_write_tokens": {
+        "complete_sum": 0,
+        "known_sum": 0,
+        "missing": 0,
+        "observed": 7
+      },
+      "cached_input_tokens": {
+        "complete_sum": 0,
+        "known_sum": 0,
+        "missing": 0,
+        "observed": 7
+      },
+      "input_tokens": {
+        "complete_sum": 7200,
+        "known_sum": 7200,
+        "missing": 0,
+        "observed": 7
+      },
+      "output_tokens": {
+        "complete_sum": 2400,
+        "known_sum": 2400,
+        "missing": 0,
+        "observed": 7
+      },
+      "reasoning_output_tokens": {
+        "complete_sum": 300,
+        "known_sum": 300,
+        "missing": 0,
+        "observed": 7
+      },
+      "request_count": {
+        "complete_sum": 10,
+        "known_sum": 10,
+        "missing": 0,
+        "observed": 7
+      }
+    },
+    "usage_provenance_counts": {
+      "estimated": 6,
+      "measured": 1
+    },
+    "weekly_projections": [
+      {
+        "assumptions": [
+          "One report per week with this observed fixture/model/configuration mix.",
+          "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+          "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+          "Not a forecast of subscription charges; no allowance for future model or price changes."
+        ],
+        "runtime_api_equivalent_usd": null,
+        "weekly_reports": 4,
+        "weeks": 4
+      },
+      {
+        "assumptions": [
+          "One report per week with this observed fixture/model/configuration mix.",
+          "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+          "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+          "Not a forecast of subscription charges; no allowance for future model or price changes."
+        ],
+        "runtime_api_equivalent_usd": null,
+        "weekly_reports": 13,
+        "weeks": 13
+      },
+      {
+        "assumptions": [
+          "One report per week with this observed fixture/model/configuration mix.",
+          "Observed attempt and retry pattern repeats; all recorded attempts are included.",
+          "Same configured prices and cache mix; setup costs are excluded and shown separately.",
+          "Not a forecast of subscription charges; no allowance for future model or price changes."
+        ],
+        "runtime_api_equivalent_usd": null,
+        "weekly_reports": 52,
+        "weeks": 52
+      }
+    ]
+  },
+  "pricing_as_of": "2026-10-08",
+  "schema_version": "1.0"
+}

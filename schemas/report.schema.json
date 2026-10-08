@@ -1,0 +1,447 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/cronbench/report-1.0.schema.json",
+  "title": "Cronbench source-specific weekly analytics report",
+  "description": "Numeric fields are finite JSON numbers or null. Ratio KPIs are fractions; wow_pct is percentage. Findings have unique ids (enforced by scorer). report.md is a canonical rendering of this report. Unrestricted prose requires separate human review.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "fixture_id",
+    "periods",
+    "summary",
+    "sources",
+    "findings",
+    "limitations",
+    "next_checks"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "fixture_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "periods": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "previous",
+        "current"
+      ],
+      "properties": {
+        "previous": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "start",
+            "end"
+          ],
+          "properties": {
+            "start": {
+              "type": "string",
+              "format": "date"
+            },
+            "end": {
+              "type": "string",
+              "format": "date"
+            }
+          }
+        },
+        "current": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "start",
+            "end"
+          ],
+          "properties": {
+            "start": {
+              "type": "string",
+              "format": "date"
+            },
+            "end": {
+              "type": "string",
+              "format": "date"
+            }
+          }
+        }
+      }
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sources": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "search_console",
+        "posthog"
+      ],
+      "properties": {
+        "search_console": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "completeness",
+            "kpis"
+          ],
+          "properties": {
+            "completeness": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "previous",
+                "current"
+              ],
+              "properties": {
+                "previous": {
+                  "$ref": "#/$defs/coverage"
+                },
+                "current": {
+                  "$ref": "#/$defs/coverage"
+                }
+              }
+            },
+            "kpis": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "clicks",
+                "impressions",
+                "position",
+                "ctr"
+              ],
+              "properties": {
+                "clicks": {
+                  "$ref": "#/$defs/kpi"
+                },
+                "impressions": {
+                  "$ref": "#/$defs/kpi"
+                },
+                "position": {
+                  "$ref": "#/$defs/kpi"
+                },
+                "ctr": {
+                  "$ref": "#/$defs/kpi"
+                }
+              }
+            }
+          }
+        },
+        "posthog": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "completeness",
+            "kpis"
+          ],
+          "properties": {
+            "completeness": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "previous",
+                "current"
+              ],
+              "properties": {
+                "previous": {
+                  "$ref": "#/$defs/coverage"
+                },
+                "current": {
+                  "$ref": "#/$defs/coverage"
+                }
+              }
+            },
+            "kpis": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "sessions",
+                "users",
+                "conversions",
+                "conversion_rate"
+              ],
+              "properties": {
+                "sessions": {
+                  "$ref": "#/$defs/kpi"
+                },
+                "users": {
+                  "$ref": "#/$defs/kpi"
+                },
+                "conversions": {
+                  "$ref": "#/$defs/kpi"
+                },
+                "conversion_rate": {
+                  "$ref": "#/$defs/kpi"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "findings": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "$ref": "#/$defs/finding"
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "code",
+          "source",
+          "detail"
+        ],
+        "properties": {
+          "code": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "enum": [
+              null,
+              "search_console",
+              "posthog"
+            ]
+          },
+          "detail": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "next_checks": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "$defs": {
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "expected_days",
+        "observed_days",
+        "reason"
+      ],
+      "properties": {
+        "expected_days": {
+          "const": 7
+        },
+        "observed_days": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 7
+        },
+        "reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "kpi": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "previous",
+        "current",
+        "absolute_change",
+        "wow_pct",
+        "unit",
+        "status",
+        "evidence_refs"
+      ],
+      "properties": {
+        "previous": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "current": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "absolute_change": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "wow_pct": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "unit": {
+          "enum": [
+            "count",
+            "ratio",
+            "position"
+          ]
+        },
+        "status": {
+          "enum": [
+            "ok",
+            "zero_baseline",
+            "missing",
+            "incomplete"
+          ]
+        },
+        "evidence_refs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "finding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "kind",
+        "source",
+        "metric",
+        "statement",
+        "evidence_refs",
+        "claims"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "change",
+            "insufficient_evidence"
+          ]
+        },
+        "source": {
+          "enum": [
+            "search_console",
+            "posthog"
+          ]
+        },
+        "metric": {
+          "enum": [
+            "clicks",
+            "impressions",
+            "position",
+            "ctr",
+            "sessions",
+            "users",
+            "conversions",
+            "conversion_rate"
+          ]
+        },
+        "statement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_refs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "claims": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "ref",
+              "value"
+            ],
+            "properties": {
+              "ref": {
+                "type": "string",
+                "minLength": 1
+              },
+              "value": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "source": {
+                "const": "search_console"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "metric": {
+                "enum": [
+                  "clicks",
+                  "impressions",
+                  "position",
+                  "ctr"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "source": {
+                "const": "posthog"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "metric": {
+                "enum": [
+                  "sessions",
+                  "users",
+                  "conversions",
+                  "conversion_rate"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

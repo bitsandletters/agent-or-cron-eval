@@ -1,0 +1,218 @@
+{
+  "version": "2026-10-08.1",
+  "as_of": "2026-10-08",
+  "currency": "USD",
+  "unit": "per_1000000_tokens",
+  "pricing_basis": "Conditional standard API-equivalent estimate, never actual subscription charges",
+  "matching": "Exact verified actual model ID; aliases intentionally empty. Do not infer provider IDs from host display names.",
+  "scope_policy": "Default rates apply only under each row rate_scope and assumptions. alternative_regimes are informational and are not selected automatically. Unknown usage or prices remain null.",
+  "models": [
+    {
+      "model_id": "gpt-6.1-sol",
+      "aliases": [],
+      "provider": "openai",
+      "input_usd_per_million": 2,
+      "output_usd_per_million": 10,
+      "cached_input_usd_per_million": 0.1,
+      "cache_write_usd_per_million": 2.5,
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+      "as_of": "2026-10-08",
+      "rate_scope": "global-standard-input-at-most-272k",
+      "assumptions": [
+        "Every request has at most 272000 input tokens.",
+        "Global standard API processing; no regional, fast, batch, or flex modifier.",
+        "Cache writes require their own measured count; an omitted write count is unknown."
+      ],
+      "notes": "Published API equivalent only; this model ID may be a rolling selector. Host availability is not established by this entry.",
+      "alternative_regimes": [
+        {
+          "rate_scope": "global-standard-input-over-272k",
+          "input_usd_per_million": 4,
+          "output_usd_per_million": 15.0,
+          "cached_input_usd_per_million": 0.2,
+          "cache_write_usd_per_million": 5.0
+        }
+      ]
+    },
+    {
+      "model_id": "gpt-6-astra",
+      "aliases": [],
+      "provider": "openai",
+      "input_usd_per_million": 10,
+      "output_usd_per_million": 50,
+      "cached_input_usd_per_million": 1,
+      "cache_write_usd_per_million": 12.5,
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+      "as_of": "2026-10-08",
+      "rate_scope": "global-standard-input-at-most-272k",
+      "assumptions": [
+        "Every request has at most 272000 input tokens.",
+        "Global standard API processing; no regional, fast, batch, or flex modifier.",
+        "Cache writes require their own measured count; an omitted write count is unknown."
+      ],
+      "notes": "Published API equivalent only; this model ID may be a rolling selector. Host availability is not established by this entry.",
+      "alternative_regimes": [
+        {
+          "rate_scope": "global-standard-input-over-272k",
+          "input_usd_per_million": 20,
+          "output_usd_per_million": 75.0,
+          "cached_input_usd_per_million": 2,
+          "cache_write_usd_per_million": 25.0
+        }
+      ]
+    },
+    {
+      "model_id": "gpt-6-luna",
+      "aliases": [],
+      "provider": "openai",
+      "input_usd_per_million": 0.1,
+      "output_usd_per_million": 0.5,
+      "cached_input_usd_per_million": 0.01,
+      "cache_write_usd_per_million": 0.125,
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+      "as_of": "2026-10-08",
+      "rate_scope": "global-standard-input-at-most-272k",
+      "assumptions": [
+        "Every request has at most 272000 input tokens.",
+        "Global standard API processing; no regional, fast, batch, or flex modifier.",
+        "Cache writes require their own measured count; an omitted write count is unknown."
+      ],
+      "notes": "Published API equivalent only; this model ID may be a rolling selector. Host availability is not established by this entry.",
+      "alternative_regimes": [
+        {
+          "rate_scope": "global-standard-input-over-272k",
+          "input_usd_per_million": 0.2,
+          "output_usd_per_million": 0.75,
+          "cached_input_usd_per_million": 0.02,
+          "cache_write_usd_per_million": 0.25
+        }
+      ]
+    },
+    {
+      "model_id": "claude-opus-5-5",
+      "aliases": [],
+      "provider": "anthropic",
+      "input_usd_per_million": 4,
+      "output_usd_per_million": 20,
+      "cached_input_usd_per_million": 0.2,
+      "cache_write_usd_per_million": 5,
+      "source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "as_of": "2026-10-08",
+      "rate_scope": "global-standard-5m-cache",
+      "assumptions": [
+        "First-party global Claude API standard processing.",
+        "Every cache write uses the 5-minute duration; mixed or unknown write durations require another table or unavailable total."
+      ],
+      "model_id_source_url": "https://platform.claude.com/docs/en/models/overview",
+      "notes": "The source lists standard rates across the supported context window for these models. No batch, fast-mode, regional, or tool service charges included.",
+      "alternative_regimes": [
+        {
+          "rate_scope": "global-standard-1h-cache",
+          "input_usd_per_million": 4,
+          "output_usd_per_million": 20,
+          "cached_input_usd_per_million": 0.2,
+          "cache_write_usd_per_million": 8
+        }
+      ]
+    },
+    {
+      "model_id": "claude-sonnet-5-5",
+      "aliases": [],
+      "provider": "anthropic",
+      "input_usd_per_million": 2,
+      "output_usd_per_million": 10,
+      "cached_input_usd_per_million": 0.1,
+      "cache_write_usd_per_million": 2.5,
+      "source_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "as_of": "2026-10-08",
+      "rate_scope": "global-standard-5m-cache",
+      "assumptions": [
+        "First-party global Claude API standard processing.",
+        "Every cache write uses the 5-minute duration; mixed or unknown write durations require another table or unavailable total."
+      ],
+      "model_id_source_url": "https://platform.claude.com/docs/en/models/overview",
+      "notes": "The source lists standard rates across the supported context window for these models. No batch, fast-mode, regional, or tool service charges included.",
+      "alternative_regimes": [
+        {
+          "rate_scope": "global-standard-1h-cache",
+          "input_usd_per_million": 2,
+          "output_usd_per_million": 10,
+          "cached_input_usd_per_million": 0.1,
+          "cache_write_usd_per_million": 4
+        }
+      ]
+    },
+    {
+      "model_id": "grok-4.7",
+      "aliases": [],
+      "provider": "xai",
+      "input_usd_per_million": 2,
+      "output_usd_per_million": 6,
+      "cached_input_usd_per_million": 0.5,
+      "cache_write_usd_per_million": 2,
+      "source_url": "https://docs.x.ai/developers/pricing",
+      "as_of": "2026-10-08",
+      "rate_scope": "global-standard-input-below-200k",
+      "assumptions": [
+        "Every request has fewer than 200000 prompt tokens.",
+        "Global public API standard processing; no regional or priority modifier.",
+        "No server-side paid search or other tool services."
+      ],
+      "notes": "Non-cached prompt tokens use the full input rate; cache creation has no separate rate in the documented automatic caching model. Cursor fast variants are not this public API pricing regime.",
+      "alternative_regimes": [
+        {
+          "rate_scope": "global-standard-input-at-least-200k",
+          "input_usd_per_million": 4,
+          "output_usd_per_million": 12,
+          "cached_input_usd_per_million": 1,
+          "cache_write_usd_per_million": 4
+        }
+      ],
+      "cache_semantics_source_url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/usage-and-pricing"
+    },
+    {
+      "model_id": "grok-4.6",
+      "aliases": [],
+      "provider": "xai",
+      "input_usd_per_million": 2,
+      "output_usd_per_million": 6,
+      "cached_input_usd_per_million": 0.5,
+      "cache_write_usd_per_million": 2,
+      "source_url": "https://docs.x.ai/developers/pricing",
+      "as_of": "2026-10-08",
+      "rate_scope": "global-standard-input-below-200k",
+      "assumptions": [
+        "Every request has fewer than 200000 prompt tokens.",
+        "Global public API standard processing; no regional or priority modifier.",
+        "No server-side paid search or other tool services."
+      ],
+      "notes": "Non-cached prompt tokens use the full input rate; cache creation has no separate rate in the documented automatic caching model. Cursor fast variants are not this public API pricing regime.",
+      "alternative_regimes": [
+        {
+          "rate_scope": "global-standard-input-at-least-200k",
+          "input_usd_per_million": 4,
+          "output_usd_per_million": 12,
+          "cached_input_usd_per_million": 1,
+          "cache_write_usd_per_million": 4
+        }
+      ],
+      "cache_semantics_source_url": "https://docs.x.ai/developers/advanced-api-usage/prompt-caching/usage-and-pricing"
+    },
+    {
+      "model_id": "gpt-oss-120b",
+      "aliases": [],
+      "provider": "hosting-provider-unknown",
+      "input_usd_per_million": null,
+      "output_usd_per_million": null,
+      "cached_input_usd_per_million": null,
+      "cache_write_usd_per_million": null,
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-oss-120b",
+      "as_of": "2026-10-08",
+      "rate_scope": "unknown-hosting",
+      "assumptions": [
+        "Select and source the actual hosting provider and exact served model/quantization before entering rates."
+      ],
+      "notes": "Open-weight model identity only. This source supplies no universal hosting price. This row does not assert Cursor subscription availability."
+    }
+  ]
+}

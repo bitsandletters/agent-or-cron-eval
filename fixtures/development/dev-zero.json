@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "fixture_id": "dev-zero",
+  "split": "development",
+  "seed": 1103,
+  "periods": {
+    "previous": {
+      "start": "2026-09-14",
+      "end": "2026-09-20"
+    },
+    "current": {
+      "start": "2026-09-21",
+      "end": "2026-09-27"
+    }
+  },
+  "sources": {
+    "search_console": {
+      "previous": {
+        "clicks": 0,
+        "impressions": 0,
+        "position": null
+      },
+      "current": {
+        "clicks": 18,
+        "impressions": 297,
+        "position": 9.19
+      },
+      "completeness": {
+        "previous": {
+          "expected_days": 7,
+          "observed_days": 7,
+          "reason": null
+        },
+        "current": {
+          "expected_days": 7,
+          "observed_days": 7,
+          "reason": null
+        }
+      }
+    },
+    "posthog": {
+      "previous": {
+        "sessions": 0,
+        "users": 0,
+        "conversions": 0
+      },
+      "current": {
+        "sessions": 40,
+        "users": 35,
+        "conversions": 2
+      },
+      "completeness": {
+        "previous": {
+          "expected_days": 7,
+          "observed_days": 7,
+          "reason": null
+        },
+        "current": {
+          "expected_days": 7,
+          "observed_days": 7,
+          "reason": null
+        }
+      }
+    }
+  },
+  "tool_failures": {}
+}

@@ -1,0 +1,151 @@
+{
+  "study_name": "replace-selectors-after-checking-your-host-catalog",
+  "seed": 20261008,
+  "repeats": 5,
+  "split": "heldout",
+  "targets": [
+    {
+      "id": "deterministic-a",
+      "host": "python",
+      "runner": "baseline",
+      "requested_model": null,
+      "execution_styles": [
+        "deterministic_pipeline"
+      ],
+      "prompt_breadths": [
+        "none"
+      ],
+      "configured_main_model": null,
+      "configured_auxiliary_models": [],
+      "routing_mode": "explicit",
+      "invocation_mode": "fresh_context"
+    },
+    {
+      "id": "codex-openai",
+      "host": "codex",
+      "runner": "manual",
+      "requested_model": "REPLACE_WITH_AVAILABLE_OPENAI_SELECTOR",
+      "configuration": {
+        "effort": "RECORD",
+        "host_rules": "RECORD",
+        "subscription_route": "ChatGPT; verify with login status"
+      },
+      "execution_styles": [
+        "prepared_evidence",
+        "tool_driven",
+        "saved_script"
+      ],
+      "prompt_breadths": [
+        "narrow",
+        "broad"
+      ],
+      "configured_main_model": "REPLACE_WITH_AVAILABLE_OPENAI_SELECTOR",
+      "configured_auxiliary_models": null,
+      "routing_mode": "host_native_opaque",
+      "invocation_mode": "fresh_context"
+    },
+    {
+      "id": "amp-openai",
+      "host": "amp",
+      "runner": "manual",
+      "requested_model": "RECORD_MAIN_ROLE_PIN_AND_HELPER_MODELS",
+      "configuration": {
+        "mode": "RECORD",
+        "routing_preview": "VERIFY_CHATGPT_SUBSCRIPTION_ONLY",
+        "fallback": "RECORD_IF_OBSERVED"
+      },
+      "execution_styles": [
+        "prepared_evidence",
+        "tool_driven",
+        "saved_script"
+      ],
+      "prompt_breadths": [
+        "narrow",
+        "broad"
+      ],
+      "configured_main_model": "RECORD_MAIN_ROLE_PIN_AND_HELPER_MODELS",
+      "configured_auxiliary_models": null,
+      "routing_mode": "host_native_opaque",
+      "invocation_mode": "fresh_context"
+    },
+    {
+      "id": "cursor-grok",
+      "host": "cursor",
+      "runner": "manual",
+      "requested_model": "REPLACE_WITH_CATALOG_GROK_SELECTOR",
+      "configuration": {
+        "effort": "RECORD",
+        "subscription_route": "VERIFY_ACCOUNT_INCLUDED_USAGE"
+      },
+      "execution_styles": [
+        "prepared_evidence",
+        "tool_driven",
+        "saved_script"
+      ],
+      "prompt_breadths": [
+        "narrow",
+        "broad"
+      ],
+      "configured_main_model": "REPLACE_WITH_CATALOG_GROK_SELECTOR",
+      "configured_auxiliary_models": null,
+      "routing_mode": "host_native_opaque",
+      "invocation_mode": "fresh_context"
+    },
+    {
+      "id": "cursor-claude",
+      "host": "cursor",
+      "runner": "manual",
+      "requested_model": "REPLACE_WITH_CATALOG_CLAUDE_SELECTOR",
+      "configuration": {
+        "effort": "RECORD",
+        "subscription_route": "VERIFY_ACCOUNT_INCLUDED_USAGE"
+      },
+      "execution_styles": [
+        "prepared_evidence",
+        "tool_driven",
+        "saved_script"
+      ],
+      "prompt_breadths": [
+        "narrow",
+        "broad"
+      ],
+      "configured_main_model": "REPLACE_WITH_CATALOG_CLAUDE_SELECTOR",
+      "configured_auxiliary_models": null,
+      "routing_mode": "host_native_opaque",
+      "invocation_mode": "fresh_context"
+    },
+    {
+      "id": "cursor-open-weight",
+      "host": "cursor",
+      "runner": "manual",
+      "requested_model": "REPLACE_ONLY_IF_ACCOUNT_CATALOG_SUPPORTS_OPEN_WEIGHTS",
+      "configuration": {
+        "hosting_price": "unknown",
+        "subscription_route": "VERIFY_OR_RECORD_UNAVAILABLE"
+      },
+      "execution_styles": [
+        "prepared_evidence",
+        "tool_driven",
+        "saved_script"
+      ],
+      "prompt_breadths": [
+        "narrow",
+        "broad"
+      ],
+      "configured_main_model": "REPLACE_ONLY_IF_ACCOUNT_CATALOG_SUPPORTS_OPEN_WEIGHTS",
+      "configured_auxiliary_models": null,
+      "routing_mode": "host_native_opaque",
+      "invocation_mode": "fresh_context"
+    }
+  ],
+  "design": {
+    "primary_factors": [
+      "prompt_breadth",
+      "execution_style"
+    ],
+    "primary_comparison": "narrow/broad crossed with tool_driven/saved_script",
+    "secondary": "prepared_evidence interpretation at both breadths",
+    "baseline": "deterministic_pipeline has no prompt breadth",
+    "invocation_mode": "fresh_context"
+  }
+}

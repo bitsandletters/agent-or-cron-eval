@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "fixture_id": "holdout-03",
+  "split": "heldout",
+  "seed": 2103,
+  "periods": {
+    "previous": {
+      "start": "2026-09-14",
+      "end": "2026-09-20"
+    },
+    "current": {
+      "start": "2026-09-21",
+      "end": "2026-09-27"
+    }
+  },
+  "sources": {
+    "search_console": {
+      "previous": {
+        "clicks": 0,
+        "impressions": 761,
+        "position": 12.304
+      },
+      "current": {
+        "clicks": 11,
+        "impressions": 946,
+        "position": 11.104
+      },
+      "completeness": {
+        "previous": {
+          "expected_days": 7,
+          "observed_days": 7,
+          "reason": null
+        },
+        "current": {
+          "expected_days": 7,
+          "observed_days": 7,
+          "reason": null
+        }
+      }
+    },
+    "posthog": {
+      "previous": {
+        "sessions": 0,
+        "users": 0,
+        "conversions": 0
+      },
+      "current": {
+        "sessions": 26,
+        "users": 21,
+        "conversions": 0
+      },
+      "completeness": {
+        "previous": {
+          "expected_days": 7,
+          "observed_days": 7,
+          "reason": null
+        },
+        "current": {
+          "expected_days": 7,
+          "observed_days": 7,
+          "reason": null
+        }
+      }
+    }
+  },
+  "tool_failures": {}
+}
