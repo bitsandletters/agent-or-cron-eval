@@ -164,4 +164,8 @@ runs/                    Local plans, packets, retained attempts (ignored)
 exports/                 Local review exports (ignored)
 ```
 
-Before sharing results, inspect host exports for account details and private paths, and keep private reviewer mappings out of public artifacts. The fixture data and included example reports are synthetic. No real model evaluation result is claimed by this repository.
+Before sharing results, inspect host exports for account details and private paths, and keep private reviewer mappings out of public artifacts. The fixture data and included example reports are synthetic; real model study results are published separately below.
+
+## Published studies
+
+The example mocks above remain synthetic plumbing checks. Separately, the [OpenAI/Amp development pilot (2026-10-08)](studies/openai-amp-development-20261008/README.md) records 78 real executions over synthetic development fixtures, including official automated results, per-run measurements, scoring caveats, and a blinded review bundle. It is a small host/configuration comparison, not a general model leaderboard; human usefulness review remains outstanding.

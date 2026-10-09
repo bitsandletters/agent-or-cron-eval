@@ -1,0 +1,59 @@
+{
+  "study_name": "openai-amp-development-pilot-20261008",
+  "seed": 20261008,
+  "repeats": 1,
+  "split": "development",
+  "targets": [
+    {
+      "id": "deterministic-a",
+      "host": "python",
+      "runner": "baseline",
+      "requested_model": null,
+      "configured_main_model": null,
+      "configured_auxiliary_models": [],
+      "routing_mode": "explicit",
+      "invocation_mode": "fresh_context",
+      "execution_styles": ["deterministic_pipeline"],
+      "prompt_breadths": ["none"]
+    },
+    {
+      "id": "amp-gpt61s",
+      "host": "amp",
+      "runner": "manual",
+      "requested_model": "gpt-6.1-sol",
+      "configured_main_model": "gpt-6.1-sol",
+      "configured_auxiliary_models": null,
+      "routing_mode": "host_native_opaque",
+      "invocation_mode": "fresh_context",
+      "execution_styles": ["tool_driven", "saved_script"],
+      "prompt_breadths": ["narrow", "broad"],
+      "configuration": {"mode": "gpt61s", "effort": "high", "behavior": "Amp High", "features": [], "subscription_route": "active ChatGPT subscription; observed per-request route may be unavailable", "isolation": "separate no-project orb per attempt, only exported packet transferred", "inherited_rules": "Amp global user instructions and workspace plugins/skills may be inherited"}
+    },
+    {
+      "id": "amp-astra",
+      "host": "amp",
+      "runner": "manual",
+      "requested_model": "gpt-6-astra",
+      "configured_main_model": "gpt-6-astra",
+      "configured_auxiliary_models": null,
+      "routing_mode": "host_native_opaque",
+      "invocation_mode": "fresh_context",
+      "execution_styles": ["tool_driven", "saved_script"],
+      "prompt_breadths": ["narrow", "broad"],
+      "configuration": {"mode": "astra", "effort": "medium", "behavior": "Amp Medium", "features": [], "subscription_route": "active ChatGPT subscription; observed per-request route may be unavailable", "isolation": "separate no-project orb per attempt, only exported packet transferred", "inherited_rules": "Amp global user instructions and workspace plugins/skills may be inherited"}
+    },
+    {
+      "id": "amp-gpt6l",
+      "host": "amp",
+      "runner": "manual",
+      "requested_model": "gpt-6-luna",
+      "configured_main_model": "gpt-6-luna",
+      "configured_auxiliary_models": null,
+      "routing_mode": "host_native_opaque",
+      "invocation_mode": "fresh_context",
+      "execution_styles": ["tool_driven", "saved_script"],
+      "prompt_breadths": ["narrow", "broad"],
+      "configuration": {"mode": "gpt6l", "effort": "medium", "behavior": "Amp Low", "features": [], "subscription_route": "active ChatGPT subscription; observed per-request route may be unavailable", "isolation": "separate no-project orb per attempt, only exported packet transferred", "inherited_rules": "Amp global user instructions and workspace plugins/skills may be inherited"}
+    }
+  ]
+}
