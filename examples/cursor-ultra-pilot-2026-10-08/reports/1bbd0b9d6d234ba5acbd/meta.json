@@ -1,0 +1,17 @@
+{
+  "run_id": "1bbd0b9d6d234ba5acbd",
+  "target_id": "cursor-grok-4-7",
+  "arm": "C",
+  "factors": {
+    "execution_style": "tool_driven",
+    "prompt_breadth": "narrow"
+  },
+  "fixture_id": "dev-decline",
+  "requested_model": "grok-4.7-high",
+  "actual_model": "grok-4.7",
+  "observed_models": [
+    "Grok 4.7 256K High"
+  ],
+  "passed": false,
+  "latency_seconds": 183.43526495300011
+}

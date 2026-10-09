@@ -32,7 +32,7 @@ python3 cronbench aggregate --study runs/demo
 
 The supplied offline configuration plans **210 runs**: seven cells × six development fixtures × five repeats. The cells are the deterministic baseline, two prepared-evidence variants, and the four narrow/broad × tool-driven/saved-script combinations. Of these, 30 runs execute the deterministic baseline and 180 use synthetic mocks.
 
-See [synthetic example outputs](examples/README.md) and the [release verification record](docs/verification.md).
+See [example outputs](examples/README.md) (including a limited-rigor [Cursor Ultra pilot](examples/cursor-ultra-pilot-2026-10-08/) with real host results) and the [release verification record](docs/verification.md).
 
 `--limit N` limits how many attempts a command launches, which is useful for checking an adapter. It is an operational batch size, not a token or spending gate. A process timeout prevents hangs. There is no automatic “retry until success”; every attempt remains in the results.
 

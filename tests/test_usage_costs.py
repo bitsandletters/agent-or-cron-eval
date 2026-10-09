@@ -124,12 +124,45 @@ class UsageTests(unittest.TestCase):
         self.assertIsNone(result["cached_input_tokens"])
         self.assertIsNone(result["input_tokens"])
 
-    def test_unknown_shape_and_cursor_usage_unavailable(self):
+    def test_unknown_shape_remains_unavailable(self):
         for host in ("cursor", "other", "codex", "amp"):
             with self.subTest(host=host):
                 result = parse_usage_artifact('{"usage":{"input_tokens":100},"model":"Pretty name"}', host)
                 self.assertIsNone(result["input_tokens"])
                 self.assertEqual(result["provenance"], "unavailable")
+
+    def test_cursor_result_usage_maps_inclusive_input(self):
+        artifact = "\n".join([
+            json.dumps({"type": "system", "model": "Grok 4.7 256K High"}),
+            json.dumps({
+                "type": "result",
+                "subtype": "success",
+                "usage": {
+                    "inputTokens": 100,
+                    "outputTokens": 20,
+                    "cacheReadTokens": 40,
+                    "cacheWriteTokens": 10,
+                },
+            }),
+        ])
+        result = parse_usage_artifact(artifact, "cursor")
+        self.assertEqual(result["input_tokens"], 150)
+        self.assertEqual(result["cached_input_tokens"], 40)
+        self.assertEqual(result["cache_write_tokens"], 10)
+        self.assertEqual(result["output_tokens"], 20)
+        self.assertEqual(result["total_tokens"], 170)
+        self.assertIsNone(result["reasoning_output_tokens"])
+        self.assertIsNone(result["request_count"])
+        self.assertEqual(result["provenance"], "measured")
+
+    def test_cursor_prefers_terminal_result_not_intermediate(self):
+        artifact = json.dumps([
+            {"type": "assistant", "usage": {"inputTokens": 999, "outputTokens": 999, "cacheReadTokens": 0, "cacheWriteTokens": 0}},
+            {"type": "result", "usage": {"inputTokens": 10, "outputTokens": 5, "cacheReadTokens": 2, "cacheWriteTokens": 1}},
+        ])
+        result = parse_usage_artifact(artifact, "cursor")
+        self.assertEqual(result["input_tokens"], 13)
+        self.assertEqual(result["output_tokens"], 5)
 
     def test_estimated_usage_stays_estimated(self):
         self.assertEqual(normalize_usage(usage(provenance="estimated"))["provenance"], "estimated")

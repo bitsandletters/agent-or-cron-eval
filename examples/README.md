@@ -1,6 +1,12 @@
-# Synthetic examples only
+# Examples
 
-These files demonstrate formats and accounting. They are **not real model evaluations** and establish no model ranking, real quota capacity, or subscription cost.
+## Real host pilot (limited rigor)
+
+- [`cursor-ultra-pilot-2026-10-08/`](cursor-ultra-pilot-2026-10-08/) publishes scrubbed results from a **real Cursor Ultra / `agent` CLI pilot** (51 attempts: primary 2×2 × four models × three development fixtures + baseline). Read that directory’s README for design, caveats, and file map. It is intended for blog readers who want underlying numbers; it is **not** a held-out confirmatory study and does **not** claim a winner.
+
+## Synthetic examples only
+
+The remaining files demonstrate formats and accounting. They are **not real model evaluations** and establish no model ranking, real quota capacity, or subscription cost.
 
 - `synthetic-offline/results.jsonl` contains seven development-fixture attempts: one deterministic baseline and six mock factor cells, all for `dev-growth`, repeat 1. Corresponding JSON/Markdown reports are under `reports/`. Model usage is explicitly synthetic/estimated; actual model IDs remain null.
 - `synthetic-offline/aggregate.json` and `.md` aggregate only those seven rows, not the full local verification matrix. Durations are measured harness execution time on one machine, not model latency.

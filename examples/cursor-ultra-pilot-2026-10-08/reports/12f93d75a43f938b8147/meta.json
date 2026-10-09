@@ -1,0 +1,17 @@
+{
+  "run_id": "12f93d75a43f938b8147",
+  "target_id": "cursor-claude-haiku-5-5",
+  "arm": "D",
+  "factors": {
+    "execution_style": "tool_driven",
+    "prompt_breadth": "broad"
+  },
+  "fixture_id": "dev-growth",
+  "requested_model": "claude-haiku-5-5-high",
+  "actual_model": "claude-haiku-5-5",
+  "observed_models": [
+    "Claude Haiku 5.5 300K High No Thinking"
+  ],
+  "passed": false,
+  "latency_seconds": 38.09533344199917
+}
